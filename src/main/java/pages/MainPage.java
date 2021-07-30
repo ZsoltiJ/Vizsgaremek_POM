@@ -14,6 +14,7 @@ public class MainPage {
     private final By USERNAMEINPUT = By.xpath("//*[@id='wpName1']");
     private final By PASSWORDINPUT = By.xpath("//*[@id='wpPassword1']");
     private final By CLICKBLUELOGINBUTTON = By.xpath("//*[@id='wpLoginAttempt']");
+    private final By PRIVACYANDPOLICYBUTTON = By.xpath("//*[@id='footer-places-privacy']/a");
 
 
     public MainPage(WebDriver webdriver){
@@ -47,7 +48,9 @@ public class MainPage {
         return new LoggedInMainPage(webdriver);
     }
 
-    public void clickOnPrivacyAndPolicyButton(){
+    public PrivacyAndPolicyPage clickOnPrivacyAndPolicyButton(){
+        webdriver.findElement(PRIVACYANDPOLICYBUTTON).click();
+            return new PrivacyAndPolicyPage(webdriver);
 
 
     }
