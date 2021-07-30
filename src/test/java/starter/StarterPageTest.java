@@ -13,7 +13,7 @@ public class StarterPageTest extends BaseTest {
 
     @Test
     public void clickEnglishButtonTest() {
-        starterPage = new StarterPage(webdriver);
+        starterPage = new StarterPage(getDriver());
         starterPage.navigateToWikipedia();
         MainPage mainPage = starterPage.englishButtonClick();
         String actual = mainPage.getWikiText();
