@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Jul 30 19:16:26 GMT 2021","Fri Jul 30 19:16:26 GMT 2021","163","","privacy_policy.PrivacyAndPolicyPageTest","","privacy_policy.PrivacyAndPolicyPageTest","privacyPolicy","privacyPolicy()",""
+"broken","Fri Jul 30 19:16:22 GMT 2021","Fri Jul 30 19:16:25 GMT 2021","3065","","starter.StarterPageTest","","starter.StarterPageTest","clickEnglishButtonTest","clickEnglishButtonTest()",""
+"broken","Fri Jul 30 19:16:26 GMT 2021","Fri Jul 30 19:16:26 GMT 2021","149","","main.MainPageTest","","main.MainPageTest","invalidLoginTest","invalidLoginTest()",""
+"broken","Fri Jul 30 19:16:25 GMT 2021","Fri Jul 30 19:16:26 GMT 2021","177","","main.MainPageTest","","main.MainPageTest","validLoginTest","validLoginTest()",""
