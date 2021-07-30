@@ -47,5 +47,10 @@ public class MainPage {
         return new LoggedInMainPage(webdriver);
     }
 
+    public void clickOnPrivacyAndPolicyButton(){
+
+
+    }
+
 
 }
