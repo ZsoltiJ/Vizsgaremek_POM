@@ -6,9 +6,8 @@ import org.openqa.selenium.WebDriver;
 public class MainPage {
 
 
-    private WebDriver webdriver;
+    private final WebDriver webdriver;
 
-    private final String URL = "https://en.wikipedia.org/wiki/Main_Page";
     private final By WIKITEST = By.id("mp-welcome");
     private final By LOGINBUTTON = By.xpath("//*[@id='pt-login']/a");
     private final By USERNAMEINPUT = By.xpath("//*[@id='wpName1']");
@@ -23,11 +22,14 @@ public class MainPage {
 
     }
     public void navigateToLogin(){
+
+        String URL = "https://en.wikipedia.org/wiki/Main_Page";
         webdriver.get(URL);
     }
     public String getWikiText(){
-         String text =  webdriver.findElement(WIKITEST).getText();
-         return text;
+        String text;
+        text = webdriver.findElement(WIKITEST).getText();
+        return text;
     }
 
     public void clickLoginButton(){
@@ -36,6 +38,7 @@ public class MainPage {
     }
 
     public void sendUsername(String username){
+
         webdriver.findElement(USERNAMEINPUT).sendKeys(username);
     }
 

@@ -9,7 +9,7 @@ public class PrivacyAndPolicyPage {
     private final String URL = "https://en.wikipedia.org/wiki/Main_Page";
     private final By PRIVACYANDPOLICYBUTTON = By.id("footer-places-privacy");
 
-    WebDriver webdriver;
+    private final WebDriver webdriver;
 
     public PrivacyAndPolicyPage(WebDriver webdriver){
 
@@ -17,6 +17,7 @@ public class PrivacyAndPolicyPage {
     }
 
     public void navigateToPrivacyPolicy(){
+
         webdriver.get(URL);
     }
 
