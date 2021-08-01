@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="Privacy and Policy page test has added2.">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="All methods has added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vizsgaremek_POM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Vizsgaremek_POM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PrivacyAndPolicyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PrivacyAndPolicyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/loggedinmainpage/LoggedInMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loggedinmainpage/LoggedInMainPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627672521978</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="All methods has added.">
+      <created>1627832046145</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1627832046145</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +251,7 @@
     <MESSAGE value="New pom.xml" />
     <MESSAGE value="Privacy and Policy page test has added." />
     <MESSAGE value="Privacy and Policy page test has added2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Privacy and Policy page test has added2." />
+    <MESSAGE value="All methods has added." />
+    <option name="LAST_COMMIT_MESSAGE" value="All methods has added." />
   </component>
 </project>
