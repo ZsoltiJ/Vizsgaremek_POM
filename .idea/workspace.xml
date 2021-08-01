@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="All methods has added.">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="&quot;--headless&quot; has uncommented.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="D:\Automation_Tester\Vizsgaremek_POM\src\test\java\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest">
+  <component name="RunManager" selected="JUnit.PrivacyAndPolicyPageTest.privacyPolicyTest">
     <configuration name="LogOutPageTest.loggingOutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
@@ -90,6 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrivacyAndPolicyPageTest.privacyPolicyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vizsgaremek_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="privacy_policy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="privacy_policy" />
+      <option name="MAIN_CLASS_NAME" value="privacy_policy.PrivacyAndPolicyPageTest" />
+      <option name="METHOD_NAME" value="privacyPolicyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SandBoxPageTest.deleteDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
@@ -101,22 +118,6 @@
       <option name="PACKAGE_NAME" value="sandbox" />
       <option name="MAIN_CLASS_NAME" value="sandbox.SandBoxPageTest" />
       <option name="METHOD_NAME" value="deleteDataTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SandBoxPageTest.newDataTypingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vizsgaremek_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sandbox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sandbox" />
-      <option name="MAIN_CLASS_NAME" value="sandbox.SandBoxPageTest" />
-      <option name="METHOD_NAME" value="newDataTypingTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrivacyAndPolicyPageTest.privacyPolicyTest" />
         <item itemvalue="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest" />
         <item itemvalue="JUnit.LogOutPageTest.loggingOutTest" />
         <item itemvalue="JUnit.SandBoxPageTest.repeatedDataSendingTest" />
         <item itemvalue="JUnit.SandBoxPageTest.deleteDataTest" />
-        <item itemvalue="JUnit.SandBoxPageTest.newDataTypingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627832046145</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&quot;--headless&quot; has uncommented.">
+      <created>1627833155521</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1627833155521</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +260,7 @@
     <MESSAGE value="Privacy and Policy page test has added." />
     <MESSAGE value="Privacy and Policy page test has added2." />
     <MESSAGE value="All methods has added." />
-    <option name="LAST_COMMIT_MESSAGE" value="All methods has added." />
+    <MESSAGE value="&quot;--headless&quot; has uncommented." />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;--headless&quot; has uncommented." />
   </component>
 </project>

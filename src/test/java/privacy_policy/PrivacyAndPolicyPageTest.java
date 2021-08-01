@@ -17,6 +17,7 @@ public class PrivacyAndPolicyPageTest extends BaseTest {
    public void privacyPolicyTest(){
       privacyAndPolicyPage = new PrivacyAndPolicyPage(getDriver());
       privacyAndPolicyPage.navigateToPrivacyPolicy();
+      mainPage = new MainPage(getDriver());
       mainPage.clickOnPrivacyAndPolicyButton();
       privacyAndPolicyPage.scrollDown();
       Assertions.assertEquals("Privacy policy", getDriver().findElement(By.xpath("//*[@id='mw-normal-catlinks']/ul/li[1]/a")).getText());
