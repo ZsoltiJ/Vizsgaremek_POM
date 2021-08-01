@@ -71,7 +71,7 @@ public class SandBoxPage {
         webdriver.get(URL);
         webdriver.findElement(SANDBOXBUTTON).click();
         webdriver.findElement(CLICKONINPUTFIELD).click();
-        webdriver.findElement(CLICKONINPUTFIELD).sendKeys("Please delete me, because I'm an old message");
+        webdriver.findElement(CLICKONINPUTFIELD).sendKeys("My birthday will in march 2020. \n Please delete me, because I'm an old message");
         webdriver.findElement(CLICKONINPUTFIELD).clear();
 
     }

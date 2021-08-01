@@ -8,6 +8,7 @@ public class MainPage {
 
     private final WebDriver webdriver;
 
+    private  final String URL = "https://en.wikipedia.org/wiki/Main_Page";
     private final By WIKITEST = By.id("mp-welcome");
     private final By LOGINBUTTON = By.xpath("//*[@id='pt-login']/a");
     private final By USERNAMEINPUT = By.xpath("//*[@id='wpName1']");
@@ -23,7 +24,7 @@ public class MainPage {
     }
     public void navigateToLogin(){
 
-        String URL = "https://en.wikipedia.org/wiki/Main_Page";
+
         webdriver.get(URL);
     }
     public String getWikiText(){

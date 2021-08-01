@@ -30,18 +30,22 @@ public class SearchResultPage {
 
 
     public void sendWord(String letters){
+
         webdriver.findElement(SEARCHWORDS).sendKeys(letters);
     }
 
     public void clickOnSearchButton(){
+
         webdriver.findElement(SEARCHBUTTON).click();
     }
 
-    public void clickOnFirst500Button(){
+    public void clickOnFirst500Button()
+    {
         webdriver.findElement(FIRST500BUTTON).click();
     }
 
     public void clickOnNext500Button(){
+
         webdriver.findElement(NEXT500BUTTON).click();
     }
 

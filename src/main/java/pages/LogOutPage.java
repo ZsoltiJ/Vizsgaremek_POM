@@ -11,6 +11,7 @@ public class LogOutPage {
 
 
     public LogOutPage(WebDriver webdriver) {
+
         this.webdriver = webdriver;
     }
 

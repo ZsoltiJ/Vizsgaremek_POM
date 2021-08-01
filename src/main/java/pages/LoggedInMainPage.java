@@ -11,6 +11,8 @@ public class LoggedInMainPage {
 
     private final WebDriver webdriver;
 
+
+    private final String URL = "https://en.wikipedia.org/wiki/Main_Page";
     private final By SEARCHFIELD = By.xpath("//*[@id='searchInput']");
     private final By SEARCHBUTTON = By.xpath("//*[@id='searchButton']");
     private final By SANDBOXBUTTON = By.xpath("//*[@id='pt-sandbox']/a");
@@ -29,7 +31,6 @@ public class LoggedInMainPage {
 
     public void navigateUrl(){
 
-        String URL = "https://en.wikipedia.org/wiki/Main_Page";
         webdriver.get(URL);
     }
     public FerrariPage sendSearchWord(String nameOfCar){

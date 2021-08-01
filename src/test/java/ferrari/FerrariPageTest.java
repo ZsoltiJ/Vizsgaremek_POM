@@ -12,8 +12,6 @@ public class FerrariPageTest extends BaseTest {
 
 
 
-
-
     @Test
     public void dataListTest(){
         ferrariPage= new FerrariPage(getDriver());
