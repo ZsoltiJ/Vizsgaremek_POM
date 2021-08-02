@@ -1,4 +1,3 @@
-  
 name: Java CI with Maven use Selenium and Allure report
 
 on: push
