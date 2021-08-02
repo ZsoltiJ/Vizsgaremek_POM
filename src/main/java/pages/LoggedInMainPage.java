@@ -32,9 +32,10 @@ public class LoggedInMainPage {
     public void navigateUrl(){
 
         webdriver.get(URL);
+
     }
-    public FerrariPage sendSearchWord(String nameOfCar){
-        webdriver.findElement(SEARCHFIELD).sendKeys(nameOfCar);
+    public FerrariPage sendSearchWord(String carname){
+        webdriver.findElement(SEARCHFIELD).sendKeys(carname);
         webdriver.findElement(SEARCHBUTTON).click();
         return new FerrariPage(webdriver);
 

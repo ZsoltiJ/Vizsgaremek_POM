@@ -10,7 +10,7 @@ public class FerrariPage {
 
     WebDriver webdriver;
 
-    private  final String URL = "https://en.wikipedia.org/wiki";
+    private final String URL = "https://en.wikipedia.org/wiki";
     private final By INPUTFIELD = By.xpath("//*[@id='searchInput']");
     private final By CLICKONFINDBUTTON = By.xpath("//*[@id='searchButton']");
     private final By FINDELEMENT = By.xpath("//*");
@@ -31,6 +31,7 @@ public class FerrariPage {
 
     webdriver.findElement(INPUTFIELD).sendKeys(word);
     }
+
 
     public void clickOnSearch() {
         webdriver.findElement(CLICKONFINDBUTTON).click();
