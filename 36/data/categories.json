@@ -1,0 +1,60 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//textarea\"}\n  (Session info: headless chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az33-739', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.UmwxNl}, goog:chromeOptions: {debuggerAddress: localhost:44213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 455068390b6aa3072510ccdc83749cfd\n*** Element info: {Using=xpath, value=//textarea}",
+      "children" : [ {
+        "name" : "repeatedDataSendingTest()",
+        "uid" : "1686ae00b2b3d40a",
+        "parentUid" : "a471e2c63380ce7e0eca83b63e440a1e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628006223063,
+          "stop" : 1628006247761,
+          "duration" : 24698
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a471e2c63380ce7e0eca83b63e440a1e"
+    }, {
+      "name" : "Expected condition failed: waiting for visibility of element located by By.xpath: //textarea (tried for 10 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "newDataTypingTest()",
+        "uid" : "69f6a1c6e32b676f",
+        "parentUid" : "5835e75b57c513aca8cb956494a4a3ed",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628006247781,
+          "stop" : 1628006271882,
+          "duration" : 24101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5835e75b57c513aca8cb956494a4a3ed"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//textarea\"}\n  (Session info: headless chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az33-739', ip: '10.1.0.217', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.zMBeQl}, goog:chromeOptions: {debuggerAddress: localhost:33101}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: aa905a873d7b70346778d59ff45c34bf\n*** Element info: {Using=xpath, value=//textarea}",
+      "children" : [ {
+        "name" : "deleteDataTest()",
+        "uid" : "5be3fca7d8c60a76",
+        "parentUid" : "5d3fc351c39063a836f95e94c9ac2953",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628006271886,
+          "stop" : 1628006296642,
+          "duration" : 24756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d3fc351c39063a836f95e94c9ac2953"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
