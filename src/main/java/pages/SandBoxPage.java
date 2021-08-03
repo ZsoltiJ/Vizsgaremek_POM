@@ -14,7 +14,7 @@ public class SandBoxPage {
 
 
     private final By SANDBOXBUTTON = By.xpath("//*[@id=\"pt-sandbox\"]/a");
-    public final By CLICKONINPUTFIELD = By.xpath("//*[@id='wpTextbox1']");
+    public final By CLICKONINPUTFIELD = By.xpath("//textarea");
     private final By PREVIEWBUTTON = By.xpath("//*[@id='wpPreview']");
 
 
