@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="sandbox page test - textarea + wait(5000) + 1">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="forgotten headless">
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628005413772</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="forgotten headless">
+      <created>1628005492849</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1628005492849</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,6 +353,7 @@
     <MESSAGE value="sandbox page test - textarea" />
     <MESSAGE value="sandbox page test - textarea + wait(5000)" />
     <MESSAGE value="sandbox page test - textarea + wait(5000) + 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="sandbox page test - textarea + wait(5000) + 1" />
+    <MESSAGE value="forgotten headless" />
+    <option name="LAST_COMMIT_MESSAGE" value="forgotten headless" />
   </component>
 </project>

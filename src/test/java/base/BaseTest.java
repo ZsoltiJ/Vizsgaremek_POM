@@ -24,8 +24,8 @@ public class BaseTest {
 
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
-           // options.addArguments("--no-sandbox");
-            // options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--no-sandbox");
+            options.addArguments("--disable-dev-shm-usage");
             options.addArguments("--headless");
             this.webdriver = new ChromeDriver(options);
             webdriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
