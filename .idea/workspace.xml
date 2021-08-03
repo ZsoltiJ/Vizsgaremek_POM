@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="pom.xml service">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="Maybe final version has added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPageSavedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainPageSavedText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vizsgaremek_POM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Vizsgaremek_POM.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/FerrariPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FerrariPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PrivacyAndPolicyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PrivacyAndPolicyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sandbox/SandBoxPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sandbox/SandBoxPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/searchresult/SearchResultPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/searchresult/SearchResultPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +55,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.10775864" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -59,38 +69,7 @@
       <recent name="D:\Automation_Tester\Vizsgaremek_POM\src\test\java\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FerrariPageTest">
-    <configuration name="FerrariPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vizsgaremek_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ferrari.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ferrari" />
-      <option name="MAIN_CLASS_NAME" value="ferrari.FerrariPageTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FerrariPageTest.dataListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vizsgaremek_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ferrari.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ferrari" />
-      <option name="MAIN_CLASS_NAME" value="ferrari.FerrariPageTest" />
-      <option name="METHOD_NAME" value="dataListTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest">
     <configuration name="LoggedInMainPageTest.searchAndSaveToFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
@@ -107,23 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrivacyAndPolicyPageTest.privacyPolicyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vizsgaremek_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="privacy_policy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="privacy_policy" />
-      <option name="MAIN_CLASS_NAME" value="privacy_policy.PrivacyAndPolicyPageTest" />
-      <option name="METHOD_NAME" value="privacyPolicyTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SandBoxPageTest.deleteDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SandBoxPageTest.newDataTypingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
         <pattern>
@@ -133,7 +96,54 @@
       </extension>
       <option name="PACKAGE_NAME" value="sandbox" />
       <option name="MAIN_CLASS_NAME" value="sandbox.SandBoxPageTest" />
-      <option name="METHOD_NAME" value="deleteDataTest" />
+      <option name="METHOD_NAME" value="newDataTypingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchResultPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vizsgaremek_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searchresult.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="searchresult" />
+      <option name="MAIN_CLASS_NAME" value="searchresult.SearchResultPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchResultPageTest.morePagesListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vizsgaremek_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searchresult.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="searchresult" />
+      <option name="MAIN_CLASS_NAME" value="searchresult.SearchResultPageTest" />
+      <option name="METHOD_NAME" value="morePagesListsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StarterPageTest.clickEnglishButtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vizsgaremek_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="starter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="starter" />
+      <option name="MAIN_CLASS_NAME" value="starter.StarterPageTest" />
+      <option name="METHOD_NAME" value="clickEnglishButtonTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FerrariPageTest" />
-        <item itemvalue="JUnit.FerrariPageTest.dataListTest" />
-        <item itemvalue="JUnit.SandBoxPageTest.deleteDataTest" />
-        <item itemvalue="JUnit.PrivacyAndPolicyPageTest.privacyPolicyTest" />
         <item itemvalue="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest" />
+        <item itemvalue="JUnit.StarterPageTest.clickEnglishButtonTest" />
+        <item itemvalue="JUnit.SearchResultPageTest.morePagesListsTest" />
+        <item itemvalue="JUnit.SandBoxPageTest.newDataTypingTest" />
+        <item itemvalue="JUnit.SearchResultPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627836667999</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="pom.xml service">
+      <created>1627910350443</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1627910350443</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,6 +301,7 @@
     <MESSAGE value="&quot;--headless&quot; has uncommented." />
     <MESSAGE value="New comment." />
     <MESSAGE value="pom.xml service" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml service" />
+    <MESSAGE value="Maybe final version has added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Maybe final version has added." />
   </component>
 </project>

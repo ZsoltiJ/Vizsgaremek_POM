@@ -4,6 +4,7 @@ import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import pages.LoggedInMainPage;
 import pages.SearchResultPage;
 
 
@@ -11,16 +12,18 @@ import pages.SearchResultPage;
 public class SearchResultPageTest extends BaseTest {
 
     SearchResultPage searchResultPage;
-
+    LoggedInMainPage loggedInMainPage;
 
 
     @Test
     public void morePagesListsTest() {
 
+        loggedInMainPage = new LoggedInMainPage(getDriver());
+        loggedInMainPage.navigateUrl();
+        loggedInMainPage.morePagesLists("letter types");
         searchResultPage = new SearchResultPage(getDriver());
-        searchResultPage.navToActual();
-        searchResultPage.sendWord("letter types");
-        searchResultPage.clickOnSearchButton();
+        //searchResultPage.navToActual();
+        //searchResultPage.clickOnSearchButton();
         searchResultPage.clickOnFirst500Button();
         searchResultPage.clickOnNext500Button();
         searchResultPage.morePagesLists();

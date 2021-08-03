@@ -34,15 +34,15 @@ public class LoggedInMainPage {
         webdriver.get(URL);
 
     }
-    public FerrariPage sendSearchWord(String carname){
-        webdriver.findElement(SEARCHFIELD).sendKeys(carname);
+    public FerrariPage sendSearchWord(String car){
+        webdriver.findElement(SEARCHFIELD).sendKeys(car);
         webdriver.findElement(SEARCHBUTTON).click();
         return new FerrariPage(webdriver);
 
     }
 
-    public SearchResultPage morePagesLists(){
-        webdriver.findElement(SEARCHFIELD).sendKeys();
+    public SearchResultPage morePagesLists(String searchWords){
+        webdriver.findElement(SEARCHFIELD).sendKeys(searchWords);
         webdriver.findElement(SEARCHBUTTON ).click();
         return new SearchResultPage(webdriver);
     }

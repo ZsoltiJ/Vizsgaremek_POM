@@ -4,6 +4,7 @@ import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import pages.LoggedInMainPage;
 import pages.MainPage;
 import pages.SandBoxPage;
 
@@ -11,6 +12,7 @@ public class SandBoxPageTest extends BaseTest {
 
     SandBoxPage sandBoxPage;
     MainPage mainPage;
+    LoggedInMainPage loggedInMainPage;
     private String data;
 
 
@@ -22,8 +24,9 @@ public class SandBoxPageTest extends BaseTest {
         mainPage.sendUsername("Szuperteszter");
         mainPage.sendPassword("acbgF9y-");
         mainPage.clickBlueLoginButton();
+        loggedInMainPage = new LoggedInMainPage(getDriver());
+        loggedInMainPage.newDataTyping();
         sandBoxPage = new SandBoxPage(getDriver());
-        sandBoxPage.clickOnSandboxButton();
         sandBoxPage.inputField("What is Lorem Ipsum?  +\n" +
                               "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \n It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. \n It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.");
 
@@ -50,7 +53,7 @@ public class SandBoxPageTest extends BaseTest {
     }
 
     @Test
-    public void deleteDataTest() throws InterruptedException {
+    public void deleteDataTest(){
 
         mainPage = new MainPage(getDriver());
         mainPage.navigateToLogin();

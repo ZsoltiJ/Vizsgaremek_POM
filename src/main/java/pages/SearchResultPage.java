@@ -1,5 +1,4 @@
 package pages;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
@@ -28,16 +27,20 @@ public class SearchResultPage {
 
     }
 
+   /* public void navToActual() {
 
-    public void sendWord(String letters){
+        webdriver.get(URL);
+    } */
+
+    /*public void sendWord(String letters){
 
         webdriver.findElement(SEARCHWORDS).sendKeys(letters);
-    }
+    }*/
 
-    public void clickOnSearchButton(){
+    /*public void clickOnSearchButton(){
 
         webdriver.findElement(SEARCHBUTTON).click();
-    }
+    }*/
 
     public void clickOnFirst500Button()
     {
@@ -64,7 +67,7 @@ public class SearchResultPage {
             links = webdriver.findElements(FINDLINKS);
             for (int j = 0; j < links.size(); j++) {
 
-                WebElement link = links.get(j).findElement(By.xpath(".//a"));
+                WebElement link = links.get(j).findElement(FINDEVERYLINKS);
                 System.out.println(link.getText());
             }
             try {
@@ -81,8 +84,4 @@ public class SearchResultPage {
     }
 
 
-    public void navToActual() {
-
-        webdriver.get(URL);
-    }
 }

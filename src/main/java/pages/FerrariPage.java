@@ -11,8 +11,8 @@ public class FerrariPage {
     WebDriver webdriver;
 
     private final String URL = "https://en.wikipedia.org/wiki";
-    private final By INPUTFIELD = By.xpath("//*[@id='searchInput']");
-    private final By CLICKONFINDBUTTON = By.xpath("//*[@id='searchButton']");
+    //private final By INPUTFIELD = By.xpath("//*[@id='searchInput']");
+    //private final By CLICKONFINDBUTTON = By.xpath("//*[@id='searchButton']");
     private final By FINDELEMENT = By.xpath("//*");
 
 
@@ -27,18 +27,18 @@ public class FerrariPage {
         webdriver.get(URL);
     }
 
-    public void sendKeyWord(String word){
+   /* public void sendKeyWord(String word){
 
     webdriver.findElement(INPUTFIELD).sendKeys(word);
-    }
+    } */
 
 
-    public void clickOnSearch() {
+   /* public void clickOnSearch() {
         webdriver.findElement(CLICKONFINDBUTTON).click();
 
-    }
+    } */
 
-    public boolean searchCarName(String car) {
+    public boolean searchCarName(String carName) {
 
         boolean isSearchCarName = false;
         int number = 0;
@@ -48,7 +48,7 @@ public class FerrariPage {
         for (WebElement elements : words) {
 
             try {
-                if (elements.getText().contains(car)) {
+                if (elements.getText().contains(carName)) {
                     number += 1;
                     isSearchCarName = true;
 

@@ -21,9 +21,9 @@ public class PrivacyAndPolicyPage {
         webdriver.get(URL);
     }
 
-    public void clickOnPrivacyAndPolicyButton(){
+     /* public void clickOnPrivacyAndPolicyButton(){
         webdriver.findElement(PRIVACYANDPOLICYBUTTON).click();
-    }
+    } */
 
     public void scrollDown(){
         JavascriptExecutor js = (JavascriptExecutor) webdriver;
