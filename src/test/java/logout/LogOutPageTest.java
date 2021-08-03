@@ -2,12 +2,14 @@ package logout;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import pages.LogOutPage;
 import pages.LoggedInMainPage;
 import pages.MainPage;
 
+@Disabled
 public class LogOutPageTest extends BaseTest {
 
 

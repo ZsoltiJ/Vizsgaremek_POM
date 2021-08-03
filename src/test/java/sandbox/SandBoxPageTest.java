@@ -4,6 +4,7 @@ import base.BaseTest;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -36,6 +37,7 @@ public class SandBoxPageTest extends BaseTest {
         loggedInMainPage = new LoggedInMainPage(getDriver());
         loggedInMainPage.newDataTyping();
         sandBoxPage = new SandBoxPage(getDriver());
+        getDriver().findElement(By.xpath("//*[text()='Start the User:Szuperteszter/sandbox page.']")).click();
         takeScreenshotForAllure();
         WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(sandBoxPage.CLICKONINPUTFIELD));
@@ -52,6 +54,7 @@ public class SandBoxPageTest extends BaseTest {
         Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
 
     }
+    @Disabled
     @Test
     public void repeatedDataSendingTest() throws InterruptedException {
         mainPage = new MainPage(getDriver());
@@ -69,6 +72,7 @@ public class SandBoxPageTest extends BaseTest {
 
     }
 
+    @Disabled
     @Test
     public void deleteDataTest(){
 
