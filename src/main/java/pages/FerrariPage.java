@@ -53,7 +53,8 @@ public class FerrariPage {
                     isSearchCarName = true;
 
                 }
-            } catch (Exception ignored) {
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
 
             }
 
