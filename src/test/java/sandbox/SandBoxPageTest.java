@@ -5,6 +5,7 @@ import io.qameta.allure.Allure;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -35,10 +36,12 @@ public class SandBoxPageTest extends BaseTest {
         loggedInMainPage = new LoggedInMainPage(getDriver());
         loggedInMainPage.newDataTyping();
         sandBoxPage = new SandBoxPage(getDriver());
+        Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+        JavascriptExecutor js = (JavascriptExecutor) getDriver();
+        js.executeScript("window.scrollBy(0,550)", "");
         WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(sandBoxPage.CLICKONINPUTFIELD));
         wait.until(ExpectedConditions.elementToBeClickable(sandBoxPage.CLICKONINPUTFIELD));
-        Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
         sandBoxPage.inputField("What is Lorem Ipsum?  +\n" +
                               "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \n It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. \n It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.");
 
