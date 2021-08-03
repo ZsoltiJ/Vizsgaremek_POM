@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="sandbox page test - textarea">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="sandbox page test - textarea + wait(5000) + 1">
       <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sandbox/SandBoxPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sandbox/SandBoxPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -300,7 +297,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628004379474</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="sandbox page test - textarea + wait(5000)">
+      <created>1628005281738</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1628005281738</updated>
+    </task>
+    <task id="LOCAL-00022" summary="sandbox page test - textarea + wait(5000) + 1">
+      <created>1628005413772</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1628005413772</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,6 +344,8 @@
     <MESSAGE value="new try2." />
     <MESSAGE value="sandbox page test." />
     <MESSAGE value="sandbox page test - textarea" />
-    <option name="LAST_COMMIT_MESSAGE" value="sandbox page test - textarea" />
+    <MESSAGE value="sandbox page test - textarea + wait(5000)" />
+    <MESSAGE value="sandbox page test - textarea + wait(5000) + 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="sandbox page test - textarea + wait(5000) + 1" />
   </component>
 </project>
