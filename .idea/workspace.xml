@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="screenshot tryed ++">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="screenshots 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sandbox/SandBoxPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sandbox/SandBoxPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -346,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628009227516</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="screenshots 2">
+      <created>1628009701818</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1628009701818</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,6 +394,7 @@
     <MESSAGE value="screenshot tryed" />
     <MESSAGE value="screenshot tryed 3" />
     <MESSAGE value="screenshot tryed ++" />
-    <option name="LAST_COMMIT_MESSAGE" value="screenshot tryed ++" />
+    <MESSAGE value="screenshots 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="screenshots 2" />
   </component>
 </project>

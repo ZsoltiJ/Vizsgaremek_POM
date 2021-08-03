@@ -37,6 +37,7 @@ public class SandBoxPageTest extends BaseTest {
         loggedInMainPage = new LoggedInMainPage(getDriver());
         loggedInMainPage.newDataTyping();
         sandBoxPage = new SandBoxPage(getDriver());
+        getDriver().findElement(By.xpath("//*[@id=\"noarticletext\"]/tbody/tr/td/ul/li[1]/b/a")).click();
         takeScreenshotForAllure();
         WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(sandBoxPage.CLICKONINPUTFIELD));
