@@ -2,13 +2,12 @@ package loggedinmainpage;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import pages.LoggedInMainPage;
 import utils.Utils;
 
-@Disabled
+
 public class LoggedInMainPageTest extends BaseTest {
 
 

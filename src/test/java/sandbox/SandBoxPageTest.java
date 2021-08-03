@@ -4,7 +4,6 @@ import base.BaseTest;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -54,7 +53,7 @@ public class SandBoxPageTest extends BaseTest {
         Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
         System.out.println(getDriver().getCurrentUrl());
     }
-    @Disabled
+
     @Test
     public void repeatedDataSendingTest() throws InterruptedException {
         mainPage = new MainPage(getDriver());
@@ -72,7 +71,7 @@ public class SandBoxPageTest extends BaseTest {
 
     }
 
-    @Disabled
+
     @Test
     public void deleteDataTest(){
 

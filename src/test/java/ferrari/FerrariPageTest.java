@@ -2,12 +2,11 @@ package ferrari;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import pages.FerrariPage;
 import pages.LoggedInMainPage;
 
-@Disabled
+
 public class FerrariPageTest extends BaseTest {
 
 
