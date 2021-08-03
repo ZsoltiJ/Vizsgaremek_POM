@@ -2,10 +2,10 @@ package sandbox;
 
 import base.BaseTest;
 import io.qameta.allure.Allure;
+import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -36,19 +36,22 @@ public class SandBoxPageTest extends BaseTest {
         loggedInMainPage = new LoggedInMainPage(getDriver());
         loggedInMainPage.newDataTyping();
         sandBoxPage = new SandBoxPage(getDriver());
-        Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
-        JavascriptExecutor js = (JavascriptExecutor) getDriver();
-        js.executeScript("window.scrollBy(0,550)", "");
+        takeScreenshotForAllure();
         WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(sandBoxPage.CLICKONINPUTFIELD));
         wait.until(ExpectedConditions.elementToBeClickable(sandBoxPage.CLICKONINPUTFIELD));
         sandBoxPage.inputField("What is Lorem Ipsum?  +\n" +
                               "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \n Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \n It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. \n It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.");
 
-
         Assertions.assertEquals("https://en.wikipedia.org/w/index.php?title=User:Szuperteszter/sandbox&action=edit&redlink=1&preload=Template%3AUser+sandbox%2Fpreload", getDriver().getCurrentUrl());
     }
 
+    @Step("Take screenshot")
+    public void takeScreenshotForAllure(){
+
+        Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
+
+    }
     @Test
     public void repeatedDataSendingTest() throws InterruptedException {
         mainPage = new MainPage(getDriver());
