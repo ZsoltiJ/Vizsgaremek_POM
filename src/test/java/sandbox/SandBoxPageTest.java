@@ -37,7 +37,6 @@ public class SandBoxPageTest extends BaseTest {
         loggedInMainPage = new LoggedInMainPage(getDriver());
         loggedInMainPage.newDataTyping();
         sandBoxPage = new SandBoxPage(getDriver());
-        getDriver().findElement(By.xpath("//*[text()='Start the User:Szuperteszter/sandbox page.']")).click();
         takeScreenshotForAllure();
         WebDriverWait wait = new WebDriverWait(getDriver(), 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(sandBoxPage.CLICKONINPUTFIELD));
@@ -52,7 +51,7 @@ public class SandBoxPageTest extends BaseTest {
     public void takeScreenshotForAllure(){
 
         Allure.addAttachment("Any text", new ByteArrayInputStream(((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES)));
-
+        System.out.println(getDriver().getCurrentUrl());
     }
     @Disabled
     @Test
