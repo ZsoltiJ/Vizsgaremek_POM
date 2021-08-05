@@ -1,0 +1,6 @@
+first = What
+second = is
+third = really
+fourth = this
+fifth = Wikipedia
+sixth = captcha?

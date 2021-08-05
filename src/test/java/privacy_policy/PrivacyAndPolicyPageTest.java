@@ -13,6 +13,8 @@ public class PrivacyAndPolicyPageTest extends BaseTest {
    PrivacyAndPolicyPage privacyAndPolicyPage;
    MainPage mainPage;
 
+   private final By CONTROLLWORDS = By.xpath("//*[@id='mw-normal-catlinks']/ul/li[1]/a");
+
    @Test
    public void privacyPolicyTest(){
       privacyAndPolicyPage = new PrivacyAndPolicyPage(getDriver());
@@ -20,8 +22,9 @@ public class PrivacyAndPolicyPageTest extends BaseTest {
       mainPage = new MainPage(getDriver());
       mainPage.clickOnPrivacyAndPolicyButton();
       privacyAndPolicyPage.scrollDown();
-      Assertions.assertEquals("Privacy policy", getDriver().findElement(By.xpath("//*[@id='mw-normal-catlinks']/ul/li[1]/a")).getText());
-      System.out.println(getDriver().findElement(By.xpath("//*[@id='mw-normal-catlinks']/ul/li[1]/a")).getText());
+
+      Assertions.assertEquals("Privacy policy", getDriver().findElement(CONTROLLWORDS).getText());
+      System.out.println(getDriver().findElement(CONTROLLWORDS).getText());
    }
 }
 

@@ -21,12 +21,10 @@ public class PrivacyAndPolicyPage {
         webdriver.get(URL);
     }
 
-     /* public void clickOnPrivacyAndPolicyButton(){
-        webdriver.findElement(PRIVACYANDPOLICYBUTTON).click();
-    } */
+
 
     public void scrollDown(){
         JavascriptExecutor js = (JavascriptExecutor) webdriver;
-        js.executeScript("window.scrollBy(0, 15000)");
+        js.executeScript("window.scrollBy(0, 14000)");
     }
 }

@@ -2,11 +2,14 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import utils.Utils;
 
 public class MainPage {
 
 
     private final WebDriver webdriver;
+    Utils utils;
+    MainPage mainPage;
 
     private  final String URL = "https://en.wikipedia.org/wiki/Main_Page";
     private final By WIKITEST = By.id("mp-welcome");
@@ -24,8 +27,8 @@ public class MainPage {
     }
     public void navigateToLogin(){
 
-
         webdriver.get(URL);
+
     }
     public String getWikiText(){
         String text;
@@ -44,6 +47,7 @@ public class MainPage {
     }
 
     public void sendPassword(String password){
+
         webdriver.findElement(PASSWORDINPUT).sendKeys(password);
     }
 
@@ -58,6 +62,8 @@ public class MainPage {
 
 
     }
+
+
 
 
 }

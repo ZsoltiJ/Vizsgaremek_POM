@@ -4,6 +4,7 @@ import base.BaseTest;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -15,7 +16,7 @@ import pages.MainPage;
 import pages.SandBoxPage;
 
 import java.io.ByteArrayInputStream;
-
+@Disabled
 public class SandBoxPageTest extends BaseTest {
 
     SandBoxPage sandBoxPage;
@@ -26,12 +27,12 @@ public class SandBoxPageTest extends BaseTest {
 
 
     @Test
-    public void newDataTypingTest() throws InterruptedException {
+    public void newDataTypingTest() {
         mainPage = new MainPage(getDriver());
         mainPage.navigateToLogin();
         mainPage.clickLoginButton();
         mainPage.sendUsername("Szuperteszter");
-        mainPage.sendPassword("acbgF9y-");
+        mainPage.sendPassword("Abcdefghijk");
         mainPage.clickBlueLoginButton();
         loggedInMainPage = new LoggedInMainPage(getDriver());
         loggedInMainPage.newDataTyping();
@@ -60,7 +61,7 @@ public class SandBoxPageTest extends BaseTest {
         mainPage.navigateToLogin();
         mainPage.clickLoginButton();
         mainPage.sendUsername("Szuperteszter");
-        mainPage.sendPassword("acbgF9y-");
+        mainPage.sendPassword("Abcdefghijk");
         mainPage.clickBlueLoginButton();
         sandBoxPage = new SandBoxPage(getDriver());
         sandBoxPage.clickOnSandboxButton();
@@ -79,7 +80,7 @@ public class SandBoxPageTest extends BaseTest {
         mainPage.navigateToLogin();
         mainPage.clickLoginButton();
         mainPage.sendUsername("Szuperteszter");
-        mainPage.sendPassword("acbgF9y-");
+        mainPage.sendPassword("Abcdefghijk");
         mainPage.clickBlueLoginButton();
         sandBoxPage = new SandBoxPage(getDriver());
         sandBoxPage.deleteData();

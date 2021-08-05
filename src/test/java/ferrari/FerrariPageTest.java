@@ -20,9 +20,6 @@ public class FerrariPageTest extends BaseTest {
         loggedInMainPage.navigateUrl();
         loggedInMainPage.sendSearchWord("Ferrari");
         ferrariPage= new FerrariPage(getDriver());
-        //ferrariPage.navFerrari();
-        //ferrariPage.clickOnSearch();
-        //ferrariPage.searchCarName("Ferrari");
 
 
         Assertions.assertTrue(ferrariPage.searchCarName("Ferrari"));

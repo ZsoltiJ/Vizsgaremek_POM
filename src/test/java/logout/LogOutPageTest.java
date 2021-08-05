@@ -18,20 +18,24 @@ public class LogOutPageTest extends BaseTest {
     MainPage mainPage;
 
 
+    private final By LOGINBUTTONCONTROL = By.xpath("//*[@id='pt-login']/a");
+
+
+
     @Test
     public void loggingOutTest(){
         mainPage = new MainPage(getDriver());
         mainPage.navigateToLogin();
         mainPage.clickLoginButton();
         mainPage.sendUsername("Szuperteszter");
-        mainPage.sendPassword("acbgF9y-");
+        mainPage.sendPassword("Abcdefghijk");
         mainPage.clickBlueLoginButton();
         loggedInMainPage = new LoggedInMainPage(getDriver());
         logOutPage = new LogOutPage(getDriver());
         loggedInMainPage.logOut();
 
 
-        Assertions.assertEquals("Log in", getDriver().findElement(By.xpath("//*[@id='pt-login']/a")).getText());
+        Assertions.assertEquals("Log in", getDriver().findElement(LOGINBUTTONCONTROL).getText());
 
     }
 }

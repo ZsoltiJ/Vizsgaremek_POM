@@ -13,8 +13,6 @@ public class SearchResultPage {
     private WebDriver webdriver;
 
     private final String URL = "https://en.wikipedia.org/wiki/Main_Page";
-    private final By SEARCHWORDS = By.xpath("//*[@id='searchInput']");
-    private final By SEARCHBUTTON = By.xpath("//*[@id='searchButton']");
     private final By FIRST500BUTTON = By.xpath("//*[@id='mw-content-text']/div[3]/p[2]/a[6]");
     private final By NEXT500BUTTON = By.xpath("//*[@id='mw-content-text']/div[3]/p[2]/a[1]");
     private final By MORE500BUTTON = By.xpath("//*[@id='mw-content-text']/div[3]/p[2]/a[2]");
@@ -27,23 +25,11 @@ public class SearchResultPage {
 
     }
 
-   /* public void navToActual() {
 
-        webdriver.get(URL);
-    } */
-
-    /*public void sendWord(String letters){
-
-        webdriver.findElement(SEARCHWORDS).sendKeys(letters);
-    }*/
-
-    /*public void clickOnSearchButton(){
-
-        webdriver.findElement(SEARCHBUTTON).click();
-    }*/
 
     public void clickOnFirst500Button()
     {
+
         webdriver.findElement(FIRST500BUTTON).click();
     }
 
@@ -69,7 +55,9 @@ public class SearchResultPage {
 
                 WebElement link = links.get(j).findElement(FINDEVERYLINKS);
                 System.out.println(link.getText());
+
             }
+             //System.out.println(l);
             try {
 
                 wait.until(ExpectedConditions.visibilityOfElementLocated(MORE500BUTTON));
