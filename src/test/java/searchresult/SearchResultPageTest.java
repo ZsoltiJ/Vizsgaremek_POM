@@ -32,8 +32,7 @@ public class SearchResultPageTest extends BaseTest {
         Assertions.assertTrue(getDriver().findElement(FIRSTCONTROL).getText().contains("letter")
                 || (getDriver().findElement(FIRSTCONTROL).getText().contains("types")));
 
-        Assertions.assertTrue(getDriver().findElement(SECONDCONTROL).getText().contains("letter")
-                || (getDriver().findElement(SECONDCONTROL).getText().contains("types")));
+
     }
 
 
