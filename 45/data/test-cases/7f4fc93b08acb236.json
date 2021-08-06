@@ -1,0 +1,249 @@
+{
+  "uid" : "7f4fc93b08acb236",
+  "name" : "invalidLoginTest()",
+  "fullName" : "main.MainPageTest.invalidLoginTest",
+  "historyId" : "5d0d1cb41f9e9d09f4a5fe5deb9743b1",
+  "time" : {
+    "start" : 1628243859360,
+    "stop" : 1628243861353,
+    "duration" : 1993
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitialTest",
+    "time" : {
+      "start" : 1628243859360,
+      "stop" : 1628243859624,
+      "duration" : 264
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1628243861285,
+      "stop" : 1628243861353,
+      "duration" : 68
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-744"
+  }, {
+    "name" : "thread",
+    "value" : "2960@fv-az74-744.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "main.MainPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "main.MainPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "invalidLoginTest"
+  }, {
+    "name" : "suite",
+    "value" : "main.MainPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 4,
+        "skipped" : 3,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "b82d97dfa9634f3c",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/44//#testresult/b82d97dfa9634f3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628181855620,
+          "stop" : 1628181857658,
+          "duration" : 2038
+        }
+      }, {
+        "uid" : "a8b844fadcb50c5d",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/43//#testresult/a8b844fadcb50c5d",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az74-744', ip: '10.1.0.26', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55ca06fb1a63 <unknown>\n#1 0x55ca06d26458 <unknown>\n#2 0x55ca06d492e3 <unknown>\n#3 0x55ca06d44e9f <unknown>\n#4 0x55ca06d7eb72 <unknown>\n#5 0x55ca06d78fd3 <unknown>\n#6 0x55ca06d4f514 <unknown>\n#7 0x55ca06d50505 <unknown>\n#8 0x55ca06fdde2e <unknown>\n#9 0x55ca06ff3886 <unknown>\n#10 0x55ca06fded75 <unknown>\n#11 0x55ca06ff4d94 <unknown>\n#12 0x55ca06fd58eb <unknown>\n#13 0x55ca0700fcd8 <unknown>\n#14 0x55ca0700fe58 <unknown>\n#15 0x55ca07029dfd <unknown>\n#16 0x7f981b0c6609 start_thread\n",
+        "time" : {
+          "start" : 1628181604939,
+          "stop" : 1628181605077,
+          "duration" : 138
+        }
+      }, {
+        "uid" : "54c8a5825b38a758",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/42//#testresult/54c8a5825b38a758",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628011656874,
+          "stop" : 1628011658940,
+          "duration" : 2066
+        }
+      }, {
+        "uid" : "35b9928bd6492c54",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/41//#testresult/35b9928bd6492c54",
+        "status" : "skipped",
+        "statusDetails" : "class main.MainPageTest is @Disabled",
+        "time" : {
+          "start" : 1628010430290,
+          "stop" : 1628010430290,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c4445642a22c4d8f",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/40//#testresult/c4445642a22c4d8f",
+        "status" : "skipped",
+        "statusDetails" : "class main.MainPageTest is @Disabled",
+        "time" : {
+          "start" : 1628009789304,
+          "stop" : 1628009789304,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "5c944bb438f15752",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/39//#testresult/5c944bb438f15752",
+        "status" : "skipped",
+        "statusDetails" : "class main.MainPageTest is @Disabled",
+        "time" : {
+          "start" : 1628009306142,
+          "stop" : 1628009306142,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "ac6c8ccc5269cae0",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/38//#testresult/ac6c8ccc5269cae0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628008173631,
+          "stop" : 1628008175850,
+          "duration" : 2219
+        }
+      }, {
+        "uid" : "126204e0e650ff48",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/37//#testresult/126204e0e650ff48",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628007549262,
+          "stop" : 1628007551343,
+          "duration" : 2081
+        }
+      }, {
+        "uid" : "befc77ad8930e3d8",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/36//#testresult/befc77ad8930e3d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628006109473,
+          "stop" : 1628006111569,
+          "duration" : 2096
+        }
+      }, {
+        "uid" : "84825042bd460347",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/35//#testresult/84825042bd460347",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628005638392,
+          "stop" : 1628005640330,
+          "duration" : 1938
+        }
+      }, {
+        "uid" : "453256630a43e34d",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/34//#testresult/453256630a43e34d",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az83-989', ip: '10.1.0.85', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55bb2a4d5a63 <unknown>\n#1 0x55bb2a24a458 <unknown>\n#2 0x55bb2a26d2e3 <unknown>\n#3 0x55bb2a268e9f <unknown>\n#4 0x55bb2a2a2b72 <unknown>\n#5 0x55bb2a29cfd3 <unknown>\n#6 0x55bb2a273514 <unknown>\n#7 0x55bb2a274505 <unknown>\n#8 0x55bb2a501e2e <unknown>\n#9 0x55bb2a517886 <unknown>\n#10 0x55bb2a502d75 <unknown>\n#11 0x55bb2a518d94 <unknown>\n#12 0x55bb2a4f98eb <unknown>\n#13 0x55bb2a533cd8 <unknown>\n#14 0x55bb2a533e58 <unknown>\n#15 0x55bb2a54ddfd <unknown>\n#16 0x7f3647457609 start_thread\n",
+        "time" : {
+          "start" : 1628005479434,
+          "stop" : 1628005479579,
+          "duration" : 145
+        }
+      }, {
+        "uid" : "281ee8d62770f780",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/33//#testresult/281ee8d62770f780",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az83-989', ip: '10.1.0.36', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5625461e4a63 <unknown>\n#1 0x562545f59458 <unknown>\n#2 0x562545f7c2e3 <unknown>\n#3 0x562545f77e9f <unknown>\n#4 0x562545fb1b72 <unknown>\n#5 0x562545fabfd3 <unknown>\n#6 0x562545f82514 <unknown>\n#7 0x562545f83505 <unknown>\n#8 0x562546210e2e <unknown>\n#9 0x562546226886 <unknown>\n#10 0x562546211d75 <unknown>\n#11 0x562546227d94 <unknown>\n#12 0x5625462088eb <unknown>\n#13 0x562546242cd8 <unknown>\n#14 0x562546242e58 <unknown>\n#15 0x56254625cdfd <unknown>\n#16 0x7fb8ad113609 start_thread\n",
+        "time" : {
+          "start" : 1628005351944,
+          "stop" : 1628005352105,
+          "duration" : 161
+        }
+      }, {
+        "uid" : "1f82625b2a1df298",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/32//#testresult/1f82625b2a1df298",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628004530041,
+          "stop" : 1628004532213,
+          "duration" : 2172
+        }
+      }, {
+        "uid" : "616bd1b86e687a7b",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/31//#testresult/616bd1b86e687a7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628002780586,
+          "stop" : 1628002782884,
+          "duration" : 2298
+        }
+      }, {
+        "uid" : "d6c764f23742ffcb",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/30//#testresult/d6c764f23742ffcb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628001254516,
+          "stop" : 1628001256805,
+          "duration" : 2289
+        }
+      }, {
+        "uid" : "377f0f39ef6145e6",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/29//#testresult/377f0f39ef6145e6",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az39-465', ip: '10.1.0.143', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x564ac7f8fa63 <unknown>\n#1 0x564ac7d04458 <unknown>\n#2 0x564ac7d272e3 <unknown>\n#3 0x564ac7d22e9f <unknown>\n#4 0x564ac7d5cb72 <unknown>\n#5 0x564ac7d56fd3 <unknown>\n#6 0x564ac7d2d514 <unknown>\n#7 0x564ac7d2e505 <unknown>\n#8 0x564ac7fbbe2e <unknown>\n#9 0x564ac7fd1886 <unknown>\n#10 0x564ac7fbcd75 <unknown>\n#11 0x564ac7fd2d94 <unknown>\n#12 0x564ac7fb38eb <unknown>\n#13 0x564ac7fedcd8 <unknown>\n#14 0x564ac7fede58 <unknown>\n#15 0x564ac8007dfd <unknown>\n#16 0x7fa83cbf0609 start_thread\n",
+        "time" : {
+          "start" : 1628000633524,
+          "stop" : 1628000633677,
+          "duration" : 153
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7f4fc93b08acb236.json",
+  "parameterValues" : [ ]
+}
