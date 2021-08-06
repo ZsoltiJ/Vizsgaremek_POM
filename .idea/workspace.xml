@@ -4,27 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="no way to go to sandbox on virtual machine">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="headless offcomit forgotten">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainPageSavedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainPageSavedText.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoetsAndAuthors.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FerrariPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FerrariPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PrivacyAndPolicyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PrivacyAndPolicyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/loggedinmainpage/LoggedInMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loggedinmainpage/LoggedInMainPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/logout/LogOutPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logout/LogOutPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/main/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/main/MainPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sandbox/SandBoxPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sandbox/SandBoxPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/searchresult/SearchResultPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/searchresult/SearchResultPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SandBoxPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sandbox/SandBoxPageTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/main/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/MainPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,24 +64,40 @@
       <recent name="D:\Automation_Tester\Vizsgaremek_POM\src\test\java\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StarterPageTest.clickEnglishButtonTest">
-    <configuration name="MainPageTest.invalidLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest">
+    <configuration name="ExternalLinkPageTest.deleteSendedDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.*" />
+          <option name="PATTERN" value="external.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main" />
-      <option name="MAIN_CLASS_NAME" value="main.MainPageTest" />
-      <option name="METHOD_NAME" value="invalidLoginTest" />
+      <option name="PACKAGE_NAME" value="external" />
+      <option name="MAIN_CLASS_NAME" value="external.ExternalLinkPageTest" />
+      <option name="METHOD_NAME" value="deleteSendedDataTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrivacyAndPolicyPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoggedInMainPageTest.searchAndSaveToFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vizsgaremek_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loggedinmainpage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="loggedinmainpage" />
+      <option name="MAIN_CLASS_NAME" value="loggedinmainpage.LoggedInMainPageTest" />
+      <option name="METHOD_NAME" value="searchAndSaveToFileTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrivacyAndPolicyPageTest.privacyPolicyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
         <pattern>
@@ -104,22 +107,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="privacy_policy" />
       <option name="MAIN_CLASS_NAME" value="privacy_policy.PrivacyAndPolicyPageTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchResultPageTest.morePagesListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vizsgaremek_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searchresult.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="searchresult" />
-      <option name="MAIN_CLASS_NAME" value="searchresult.SearchResultPageTest" />
-      <option name="METHOD_NAME" value="morePagesListsTest" />
+      <option name="METHOD_NAME" value="privacyPolicyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest" />
+        <item itemvalue="JUnit.ExternalLinkPageTest.deleteSendedDataTest" />
+        <item itemvalue="JUnit.PrivacyAndPolicyPageTest.privacyPolicyTest" />
         <item itemvalue="JUnit.StarterPageTest.clickEnglishButtonTest" />
         <item itemvalue="JUnit.SpecialPagesTest.clickOnExternalLinkTest" />
-        <item itemvalue="JUnit.SearchResultPageTest.morePagesListsTest" />
-        <item itemvalue="JUnit.PrivacyAndPolicyPageTest" />
-        <item itemvalue="JUnit.MainPageTest.invalidLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +374,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628011501172</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="New methods and refactored methods has added.">
+      <created>1628181533151</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1628181533151</updated>
+    </task>
+    <task id="LOCAL-00032" summary="headless offcomit forgotten">
+      <created>1628181681857</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1628181681857</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,8 +404,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pom.xml has added_3" />
-    <MESSAGE value="First test has added." />
     <MESSAGE value="MainPageTest has added." />
     <MESSAGE value="New pom.xml" />
     <MESSAGE value="Privacy and Policy page test has added." />
@@ -427,6 +427,8 @@
     <MESSAGE value="screenshots 2" />
     <MESSAGE value="new xpath to sandbox" />
     <MESSAGE value="no way to go to sandbox on virtual machine" />
-    <option name="LAST_COMMIT_MESSAGE" value="no way to go to sandbox on virtual machine" />
+    <MESSAGE value="New methods and refactored methods has added." />
+    <MESSAGE value="headless offcomit forgotten" />
+    <option name="LAST_COMMIT_MESSAGE" value="headless offcomit forgotten" />
   </component>
 </project>

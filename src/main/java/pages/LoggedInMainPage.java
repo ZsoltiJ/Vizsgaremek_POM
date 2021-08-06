@@ -55,10 +55,6 @@ public class LoggedInMainPage {
         return new SearchResultPage(webdriver);
     }
 
-    public SandBoxPage newDataTyping() {
-        webdriver.findElement(SANDBOXBUTTON).click();
-        return new SandBoxPage(webdriver);
-    }
 
     public void dataModifing() {
 
