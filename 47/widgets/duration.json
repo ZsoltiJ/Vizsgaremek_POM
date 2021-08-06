@@ -1,0 +1,131 @@
+[ {
+  "uid" : "4b6c3e86810343e8",
+  "name" : "deleteSendedDataTest()",
+  "time" : {
+    "start" : 1628245002121,
+    "stop" : 1628245007826,
+    "duration" : 5705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bbe6ee4f3784209",
+  "name" : "dataModifingTest()",
+  "time" : {
+    "start" : 1628244917276,
+    "stop" : 1628244929620,
+    "duration" : 12344
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "401041b2fd26d353",
+  "name" : "clickOnExternalLinkTest()",
+  "time" : {
+    "start" : 1628244999915,
+    "stop" : 1628245001014,
+    "duration" : 1099
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4929c581cefd51fa",
+  "name" : "dataListTest()",
+  "time" : {
+    "start" : 1628245018371,
+    "stop" : 1628245131457,
+    "duration" : 113086
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87e1fd8f208cb04b",
+  "name" : "sendFileFromOuterSourceTest()",
+  "time" : {
+    "start" : 1628244929701,
+    "stop" : 1628244934593,
+    "duration" : 4892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f89164b0e14642e8",
+  "name" : "validLoginTest()",
+  "time" : {
+    "start" : 1628245013099,
+    "stop" : 1628245016519,
+    "duration" : 3420
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf28e47004088ab2",
+  "name" : "searchAndSaveToFileTest()",
+  "time" : {
+    "start" : 1628244934597,
+    "stop" : 1628244935343,
+    "duration" : 746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e0dc30371abd680",
+  "name" : "morePagesListsTest()",
+  "time" : {
+    "start" : 1628244935349,
+    "stop" : 1628244995968,
+    "duration" : 60619
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb5d35111c7679b9",
+  "name" : "loggingOutTest()",
+  "time" : {
+    "start" : 1628244995976,
+    "stop" : 1628244999904,
+    "duration" : 3928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6d88643fbe9f216",
+  "name" : "clickEnglishButtonTest()",
+  "time" : {
+    "start" : 1628245001029,
+    "stop" : 1628245002117,
+    "duration" : 1088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac04afc0b5cab7fa",
+  "name" : "invalidLoginTest()",
+  "time" : {
+    "start" : 1628245016522,
+    "stop" : 1628245018367,
+    "duration" : 1845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f94d9bb49cdb698e",
+  "name" : "newDataSendTest()",
+  "time" : {
+    "start" : 1628245007830,
+    "stop" : 1628245013095,
+    "duration" : 5265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "149b1d2f67acea9a",
+  "name" : "privacyPolicyTest()",
+  "time" : {
+    "start" : 1628245131460,
+    "stop" : 1628245132483,
+    "duration" : 1023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
