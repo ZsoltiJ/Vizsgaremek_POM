@@ -18,5 +18,5 @@ Tisztelettel,
 Juhász Zsolt
 
 
-Megjegyzések: a tesztek az src mappán belül a a test/java mappában találhatóak.
+Megjegyzések: a tesztek az src mappán belül a test/java mappában találhatóak.
               a tesztjelentés az alábbi linken: https://zsoltij.github.io/Vizsgaremek_POM/

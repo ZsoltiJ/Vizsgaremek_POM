@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="headless offcomit forgotten">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="Unused pages deleted and Read.ME file has added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainPageSavedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainPageSavedText.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SandBoxPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sandbox/SandBoxPageTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -388,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628181681857</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Unused pages deleted and Read.ME file has added.">
+      <created>1628243689746</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1628243689746</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,7 +405,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MainPageTest has added." />
     <MESSAGE value="New pom.xml" />
     <MESSAGE value="Privacy and Policy page test has added." />
     <MESSAGE value="Privacy and Policy page test has added2." />
@@ -429,6 +429,7 @@
     <MESSAGE value="no way to go to sandbox on virtual machine" />
     <MESSAGE value="New methods and refactored methods has added." />
     <MESSAGE value="headless offcomit forgotten" />
-    <option name="LAST_COMMIT_MESSAGE" value="headless offcomit forgotten" />
+    <MESSAGE value="Unused pages deleted and Read.ME file has added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Unused pages deleted and Read.ME file has added." />
   </component>
 </project>
