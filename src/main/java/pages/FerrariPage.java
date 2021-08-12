@@ -27,9 +27,9 @@ public class FerrariPage {
 
 
 
-    public boolean searchCarName(String carName) {
+    public int searchCarName(String carName) {
 
-        boolean isSearchCarName = false;
+
         int number = 0;
 
         List<WebElement> words = webdriver.findElements(FINDELEMENT);
@@ -39,7 +39,7 @@ public class FerrariPage {
             try {
                 if (elements.getText().contains(carName)) {
                     number += 1;
-                    isSearchCarName = true;
+
 
                 }
             } catch (Exception e) {
@@ -50,7 +50,7 @@ public class FerrariPage {
 
         }
              System.out.println("'Ferrari' is founded: " + number + " pieces.");
-             return  isSearchCarName;
+             return  number;
         }
 
 

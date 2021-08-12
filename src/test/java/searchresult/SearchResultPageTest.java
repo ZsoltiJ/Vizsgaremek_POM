@@ -15,7 +15,7 @@ public class SearchResultPageTest extends BaseTest {
     LoggedInMainPage loggedInMainPage;
 
     private final By FIRSTCONTROL = By.xpath("//*[@id='mw-content-text']/div[3]/ul/li[1]/div[2]");
-    private final By SECONDCONTROL = By.xpath("//*[@id=\"mw-content-text\"]/div[3]/ul/li[2]/div[2]");
+
 
 
     @Test
@@ -29,8 +29,7 @@ public class SearchResultPageTest extends BaseTest {
         searchResultPage.clickOnNext500Button();
         searchResultPage.morePagesLists();
 
-        Assertions.assertTrue(getDriver().findElement(FIRSTCONTROL).getText().contains("letter")
-                || (getDriver().findElement(FIRSTCONTROL).getText().contains("types")));
+        Assertions.assertTrue(searchResultPage.firstWord() || searchResultPage.secondWord());
 
 
     }

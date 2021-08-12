@@ -25,17 +25,18 @@ public class ExternalLinkPageTest extends BaseTest {
 
     @Test
     public void newDataSendTest(){
-        mainPage = new MainPage(getDriver());
+     /*   mainPage = new MainPage(getDriver());
         mainPage.navigateToLogin();
         mainPage.clickLoginButton();
         mainPage.sendUsername("Szuperteszter");
         mainPage.sendPassword("Abcdefghijk");
-        mainPage.clickBlueLoginButton();
+        mainPage.clickBlueLoginButton(); */
+        externalLinkPage = new ExternalLinkPage(getDriver());
+        externalLinkPage.getURL();
         loggedInMainPage = new LoggedInMainPage(getDriver());
         loggedInMainPage.clickOnSpecPageButton();
         specialPages = new SpecialPages(getDriver());
         specialPages.clickOnExternalLink();
-        externalLinkPage = new ExternalLinkPage(getDriver());
 
 
 
@@ -48,23 +49,24 @@ public class ExternalLinkPageTest extends BaseTest {
 
     @Test
     public void deleteSendedDataTest(){
-        mainPage = new MainPage(getDriver());
+       /* mainPage = new MainPage(getDriver());
         mainPage.navigateToLogin();
         mainPage.clickLoginButton();
         mainPage.sendUsername("Szuperteszter");
         mainPage.sendPassword("Abcdefghijk");
-        mainPage.clickBlueLoginButton();
+        mainPage.clickBlueLoginButton(); */
+        externalLinkPage = new ExternalLinkPage(getDriver());
+        externalLinkPage.getURL();
         loggedInMainPage = new LoggedInMainPage(getDriver());
         loggedInMainPage.clickOnSpecPageButton();
         specialPages = new SpecialPages(getDriver());
         specialPages.clickOnExternalLink();
-        externalLinkPage = new ExternalLinkPage(getDriver());
         externalLinkPage.newDataSend(FINDLINKNAME);
         externalLinkPage.deleteSendedData();
 
 
 
-        Assertions.assertTrue(getDriver().findElement(INPUTFIELD).getText().isEmpty());
+        Assertions.assertTrue(externalLinkPage.checkSpecialInputField());
 
 
     }

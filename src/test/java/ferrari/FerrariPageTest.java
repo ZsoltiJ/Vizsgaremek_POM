@@ -20,9 +20,10 @@ public class FerrariPageTest extends BaseTest {
         loggedInMainPage.navigateUrl();
         loggedInMainPage.sendSearchWord("Ferrari");
         ferrariPage= new FerrariPage(getDriver());
+        int expected = 546;
+        int actual = ferrariPage.searchCarName("Ferrari");
 
-
-        Assertions.assertTrue(ferrariPage.searchCarName("Ferrari"));
+        Assertions.assertEquals(expected, actual);
 
 
     }

@@ -1,34 +1,36 @@
 package pages;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import utils.Utils;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class LoggedInMainPage {
 
 
     private final WebDriver webdriver;
-    LoggedInMainPage loggedInMainPage;
     Utils utils;
 
 
     private final String URL = "https://en.wikipedia.org/wiki/Main_Page";
     private final By SEARCHFIELD = By.xpath("//*[@id='searchInput']");
     private final By SEARCHBUTTON = By.xpath("//*[@id='searchButton']");
-    private final By SANDBOXBUTTON = By.xpath("//*[@id='pt-sandbox']/a");
     private final By LOGOUTBUTTON = By.xpath("//*[@id='pt-logout']/a");
     private final By HEADERTEXT = By.xpath("//*[@id='On_this_day']");
-    private final By SAVETOFILETEXT = By.xpath("//*[@id='mp-otd']");
     public final By SPECIALPAGEBUTTON = By.xpath("//*[@id=\"t-specialpages\"]/a");
     public final By INNERSEARCHFIELD = By.xpath("//*[@id=\"ooui-php-1\"]");
     public final By INNERSEARCHBUTTON = By.xpath("//*[@id=\"mw-search-top-table\"]/div/div/div/span/span/button/span[2]");
     public final By SEARCHLIST = By.xpath("//*[@id=\"mw-content-text\"]/div[4]/ul/li");
+    public final By BUTTON100 = By.xpath("//*[@id=\"mw-content-text\"]/div[4]/p[2]/a[4]");
+
 
 
     public LoggedInMainPage(WebDriver webdriver) {
@@ -77,7 +79,7 @@ public class LoggedInMainPage {
     }
 
 
-    public void searchAndSaveToFile() {
+ /*   public void searchAndSaveToFile() {
 
         try {
             FileWriter myWriter = new FileWriter("MainPageSavedText.txt");
@@ -91,7 +93,7 @@ public class LoggedInMainPage {
         }
 
 
-    }
+    } */
 
     public SpecialPages clickOnSpecPageButton() {
         webdriver.findElement(SPECIALPAGEBUTTON).click();
@@ -99,8 +101,8 @@ public class LoggedInMainPage {
     }
 
 
-
     public void clickInSearchFieldButton() {
+
         webdriver.findElement(SEARCHBUTTON).click();
     }
 
@@ -109,48 +111,126 @@ public class LoggedInMainPage {
 
     }
 
+    public void sendData(String word) {
 
-    public void sendData1(String first){
-        webdriver.findElement(INNERSEARCHFIELD).sendKeys(first + " ");
-    }
-    public void sendData2(String second){
-        webdriver.findElement(INNERSEARCHFIELD).sendKeys(second + " ");
-    }
-    public void sendData3(String third){
-        webdriver.findElement(INNERSEARCHFIELD).sendKeys(third + " ");
-    }
-    public void sendData4(String fourth){
-        webdriver.findElement(INNERSEARCHFIELD).sendKeys(fourth + " ");
-    }
-    public void sendData5(String fifth){
-        webdriver.findElement(INNERSEARCHFIELD).sendKeys(fifth + " ");
-    }
-    public void sendData6(String sixth){
-        webdriver.findElement(INNERSEARCHFIELD).sendKeys(sixth);
+        webdriver.findElement(INNERSEARCHFIELD).sendKeys(word + " ");
     }
 
-    public void clickOnInnerSearchButton(){
+
+    public void clickOnInnerSearchButton() {
 
         webdriver.findElement(INNERSEARCHBUTTON).click();
     }
 
-    public boolean items(){
+    public boolean items() {
 
-        List<WebElement> item = webdriver.findElements(SEARCHLIST);
-        List<String> result = new ArrayList<>();
+
+        Actions actions = new Actions(webdriver);
+        WebElement button = webdriver.findElement(BUTTON100);
+        actions.moveToElement(button);
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        button.click();
+        List<WebElement> items = webdriver.findElements(SEARCHLIST);
         boolean isCaptcha = false;
+        int counter = 0;
+        for (WebElement item : items) {
+            counter++;
+            if (item.getText().toLowerCase().contains("captcha".toLowerCase())) {
+                isCaptcha = true;
+            }
 
-        for (WebElement items : item) {
-           WebElement linkText = webdriver.findElement(SEARCHLIST);
-           if (linkText.getText().toLowerCase().contains("captcha".toLowerCase())){
+        }
+            System.out.println("Number of links: " + counter);
 
-               isCaptcha = true;
+          return isCaptcha;
+
+
+    }
+
+    public String getFirstHeadingText() {
+        String expected = webdriver.findElement(By.xpath("//*[@id='firstHeading']")).getText();
+
+        return expected;
+    }
+
+    public String searchAndSaveToFile() throws IOException {
+
+        webdriver.get(URL);
+        String savedFile = "";
+        String actualText = "";
+        String message = "";
+
+        // old saved file
+        try {
+            File myObj = new File("MainPageSavedText.txt");
+            Scanner myReader = new Scanner(myObj);
+            while (myReader.hasNextLine()) {
+                String data = myReader.nextLine();
+                savedFile += data + "\n";
+
+            }
+            myReader.close();
+        } catch (Exception e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
         }
 
+        actualText = webdriver.findElement(HEADERTEXT).getText() + "\n";
+        actualText  += webdriver.findElement(By.xpath("//*[@id='mp-otd']")).getText() + "\n";
+
+
+        System.out.println(actualText);
+        System.out.println(savedFile);
+
+        //Assertions.assertEquals(actualText, savedFile); // control under work.
+
+        if (!actualText.equals(savedFile)) {
+            try {
+                FileWriter myWriter = new FileWriter("MainPageSavedText.txt");
+                myWriter.append(actualText);
+                myWriter.close();
+                message = "Successfully wrote to the file.";
+                System.out.println(message);
+
+            } catch (IOException e) {
+                message = "An error occurred.";
+                System.out.println(message);
+                e.printStackTrace();
+            }
+
+        } else {
+            message = "This file has not modified.";
+            System.out.println(message);
+
+        }
+      return message;
+    }
+
+
+    public String fileModifying(String newData){
+
+        String message = "";
+
+        try {
+            FileWriter myWriter = new FileWriter("MainPageSavedText.txt");
+            myWriter.append(newData);
+            myWriter.close();
+            message = "The file has modified.";
+            System.out.println(message);
+
+        } catch (IOException e) {
+            message = "An error occurred.";
+            System.out.println(message);
+            e.printStackTrace();
         }
 
-        return isCaptcha;
-
+        return message;
+    }
 
 }
-}
+
+

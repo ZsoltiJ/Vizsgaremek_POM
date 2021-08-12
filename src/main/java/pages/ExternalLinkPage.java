@@ -16,7 +16,7 @@ public class ExternalLinkPage {
     public final By INPUTFIELD = By.xpath("//*[@id=\"ooui-php-1\"]");
     public final By SEARCHBUTTON = By.xpath("//*[@id=\"ooui-php-3\"]/button/span[2]");
     public final By GETLINKS = By.xpath(".//a");
-    public final String URL = "https://en.wikipedia.org/w/index.php?target=gffbgngn&title=Special%3ALinkSearch";
+    public final String URL = "https://en.wikipedia.org/wiki/Main_Page";
 
 
     public ExternalLinkPage(WebDriver webDriver) {
@@ -24,9 +24,13 @@ public class ExternalLinkPage {
         this.webdriver = webDriver;
     }
 
+    public void getURL() {
+        webdriver.get(URL);
+
+    }
 
 
-    public int newDataSend(String word){
+    public int newDataSend(String word) {
 
         webdriver.findElement(INPUTFIELD).click();
         webdriver.findElement(INPUTFIELD).sendKeys(word);
@@ -37,13 +41,13 @@ public class ExternalLinkPage {
         List<WebElement> links = webdriver.findElements(LINKS);
         for (WebElement webElement : links) {
             WebElement item = webElement.findElement(GETLINKS);
-            if ( item.getText().contains(FINDLINKNAME)){
+            if (item.getText().contains(FINDLINKNAME)) {
                 counter += 1;
             }
 
         }
-                System.out.println(counter);
-                return counter;
+        System.out.println(counter);
+        return counter;
 
     }
 
@@ -57,6 +61,14 @@ public class ExternalLinkPage {
 
     }
 
+    public boolean checkSpecialInputField() {
+        boolean isEmpty = false;
+        if (webdriver.findElement(INPUTFIELD).getText().isEmpty()) {
+            isEmpty = true;
+
+        }
+            return isEmpty;
 
 
+    }
 }

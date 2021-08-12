@@ -33,9 +33,9 @@ public class LogOutPageTest extends BaseTest {
         loggedInMainPage = new LoggedInMainPage(getDriver());
         logOutPage = new LogOutPage(getDriver());
         loggedInMainPage.logOut();
+        String expected = "Log in";
 
-
-        Assertions.assertEquals("Log in", getDriver().findElement(LOGINBUTTONCONTROL).getText());
+        Assertions.assertEquals(expected, logOutPage.loggingOut());
 
     }
 }

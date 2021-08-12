@@ -37,30 +37,13 @@ public class Utils {
         try {
             File myOuterFile = new File("outerDataSending.txt");
             Scanner scanner = new Scanner(myOuterFile);
+            int i = 0;
             while (scanner.hasNextLine()) {
                 String data = scanner.nextLine();
-                String[] temporaryFile = data.split(" = ");
-                if (temporaryFile[0].equals("first")) {
-                    result[0] = temporaryFile[1];
-                } else if (temporaryFile[0].equals("second")) {
-                    result[1] = temporaryFile[1];
-                } else if (temporaryFile[0].equals("third")) {
-                    result[2] = temporaryFile[1];
-                } else if (temporaryFile[0].equals("fourth")) {
-                    result[3] = temporaryFile[1];
-                } else if (temporaryFile[0].equals("fifth")) {
-                    result[4] = temporaryFile[1];
-                } else if (temporaryFile[0].equals("sixth")){
-                    result[5] = temporaryFile[1];
-                }
-
-
+                result[i] = data;
+                i++;
             }
-
-
             scanner.close();
-
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
 
@@ -68,5 +51,6 @@ public class Utils {
 
         return result;
     }
+
 
 }

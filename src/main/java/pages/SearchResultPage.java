@@ -18,7 +18,9 @@ public class SearchResultPage {
     private final By MORE500BUTTON = By.xpath("//*[@id='mw-content-text']/div[3]/p[2]/a[2]");
     private final By FINDLINKS = By.xpath("//*[@id='mw-content-text']/div[3]/ul/li");
     private final By FINDEVERYLINKS = By.xpath(".//a");
+    private final By FIRSTCONTROL = By.xpath("//*[@id='mw-content-text']/div[3]/ul/li[1]/div[2]");
 
+    ;
 
     public SearchResultPage(WebDriver webdriver) {
         this.webdriver = webdriver;
@@ -69,6 +71,21 @@ public class SearchResultPage {
             }
 
         }
+    }
+    public boolean firstWord(){
+        boolean isfirstWord = false;
+        if (webdriver.findElement(FIRSTCONTROL).getText().contains("letter")){
+            isfirstWord = true;
+        }
+            return isfirstWord;
+    }
+    public boolean secondWord() {
+        boolean isSecondWord = false;
+        if (webdriver.findElement(FIRSTCONTROL).getText().contains("types")) {
+            isSecondWord = true;
+        }
+        return isSecondWord;
+
     }
 
 

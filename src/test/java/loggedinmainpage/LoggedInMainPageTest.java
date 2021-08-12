@@ -2,12 +2,14 @@ package loggedinmainpage;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import pages.LoggedInMainPage;
 import utils.Utils;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 
 public class LoggedInMainPageTest extends BaseTest {
@@ -25,13 +27,14 @@ public class LoggedInMainPageTest extends BaseTest {
         loggedInMainPage = new LoggedInMainPage(getDriver());
         loggedInMainPage.navigateUrl();
         loggedInMainPage.dataModifing();
-
-        String expected = getDriver().findElement(By.xpath("//*[@id='firstHeading']")).getText();
+        String expected = loggedInMainPage.getFirstHeadingText();
         String actual = "Renault";
         Assertions.assertEquals(expected, actual);
     }
 
-    @Test
+
+
+ /*   @Test
     public void searchAndSaveToFileTest() {
         Utils utils = new Utils(getDriver());
         utils.writeToFile("//*[@id='On_this_day']", "//*[@id='mp-otd']");
@@ -42,7 +45,7 @@ public class LoggedInMainPageTest extends BaseTest {
         Assertions.assertEquals("On this day", getDriver().findElement(HEADERTEXT).getText());
 
 
-    }
+    } */
 
     @Test
     public void sendFileFromOuterSourceTest() throws FileNotFoundException {
@@ -53,13 +56,9 @@ public class LoggedInMainPageTest extends BaseTest {
         loggedInMainPage.navigateUrl();
         loggedInMainPage.clickInSearchFieldButton();
         loggedInMainPage.clickInnerSearchField();
-        loggedInMainPage.sendData1(userDatas[0]);
-        loggedInMainPage.sendData2(userDatas[1]);
-        loggedInMainPage.sendData3(userDatas[2]);
-        loggedInMainPage.sendData4(userDatas[3]);
-        loggedInMainPage.sendData5(userDatas[4]);
-        loggedInMainPage.sendData6(userDatas[5]);
-
+        for (int i = 0; i < 6; i++) {
+            loggedInMainPage.sendData(userDatas[i]);
+        }
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
@@ -68,11 +67,40 @@ public class LoggedInMainPageTest extends BaseTest {
 
         loggedInMainPage.clickOnInnerSearchButton();
 
-
-
         Assertions.assertTrue(loggedInMainPage.items());
 
+    }
+
+    @Test
+    @DisplayName("TC-06, File lementése eltérő tartalom esetén.")
+    public void searchAndSaveToFileTest() throws IOException {
+        loggedInMainPage = new LoggedInMainPage(getDriver());
+
+        String expectedMessage = "Successfully wrote to the file.";
+        String modifiedMessage;
+        modifiedMessage = loggedInMainPage.fileModifying("This is a new line");
+        System.out.println(modifiedMessage);
+
+        String actualMessage =  loggedInMainPage.searchAndSaveToFile();
+        Assertions.assertEquals(expectedMessage, actualMessage);
 
 
     }
+
+    @Test
+    @DisplayName("TC-07, File nem kerül lementésre, azonos tartalom esetén.")
+    public void searchAndSaveToFileTest2() throws IOException {
+        loggedInMainPage = new LoggedInMainPage(getDriver());
+
+        String expectedMessage = "This file has not modified.";
+
+        String actualMessage;
+        loggedInMainPage.searchAndSaveToFile();
+        actualMessage = loggedInMainPage.searchAndSaveToFile();
+
+        Assertions.assertEquals(expectedMessage, actualMessage);
+
+
+    }
+
 }

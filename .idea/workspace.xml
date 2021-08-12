@@ -4,9 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="Read.ME file edited.">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="Edited one file.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPageSavedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainPageSavedText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outerDataSending.txt" beforeDir="false" afterPath="$PROJECT_DIR$/outerDataSending.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ExternalLinkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ExternalLinkPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FerrariPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FerrariPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LogOutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LogOutPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PrivacyAndPolicyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PrivacyAndPolicyPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SpecialPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SpecialPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/external/ExternalLinkPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/external/ExternalLinkPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/loggedinmainpage/LoggedInMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loggedinmainpage/LoggedInMainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logout/LogOutPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logout/LogOutPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/main/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/main/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/searchresult/SearchResultPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/searchresult/SearchResultPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/special/SpecialPagesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/special/SpecialPagesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/StarterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/starter/StarterPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/main/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/MainPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/starter/StarterPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/starter/StarterPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +70,13 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.10775864" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -59,8 +87,8 @@
       <recent name="D:\Automation_Tester\Vizsgaremek_POM\src\test\java\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchResultPageTest.morePagesListsTest">
-    <configuration name="ExternalLinkPageTest.deleteSendedDataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FerrariPageTest.dataListTest">
+    <configuration name="ExternalLinkPageTest.newDataSendTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
         <pattern>
@@ -70,7 +98,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="external" />
       <option name="MAIN_CLASS_NAME" value="external.ExternalLinkPageTest" />
-      <option name="METHOD_NAME" value="deleteSendedDataTest" />
+      <option name="METHOD_NAME" value="newDataSendTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FerrariPageTest.dataListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vizsgaremek_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ferrari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ferrari" />
+      <option name="MAIN_CLASS_NAME" value="ferrari.FerrariPageTest" />
+      <option name="METHOD_NAME" value="dataListTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,49 +136,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrivacyAndPolicyPageTest.privacyPolicyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoggedInMainPageTest.searchAndSaveToFileTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="privacy_policy.*" />
+          <option name="PATTERN" value="loggedinmainpage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="privacy_policy" />
-      <option name="MAIN_CLASS_NAME" value="privacy_policy.PrivacyAndPolicyPageTest" />
-      <option name="METHOD_NAME" value="privacyPolicyTest" />
+      <option name="PACKAGE_NAME" value="loggedinmainpage" />
+      <option name="MAIN_CLASS_NAME" value="loggedinmainpage.LoggedInMainPageTest" />
+      <option name="METHOD_NAME" value="searchAndSaveToFileTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchResultPageTest.morePagesListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoggedInMainPageTest.sendFileFromOuterSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searchresult.*" />
+          <option name="PATTERN" value="loggedinmainpage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="searchresult" />
-      <option name="MAIN_CLASS_NAME" value="searchresult.SearchResultPageTest" />
-      <option name="METHOD_NAME" value="morePagesListsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StarterPageTest.clickEnglishButtonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vizsgaremek_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="starter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="starter" />
-      <option name="MAIN_CLASS_NAME" value="starter.StarterPageTest" />
-      <option name="METHOD_NAME" value="clickEnglishButtonTest" />
+      <option name="PACKAGE_NAME" value="loggedinmainpage" />
+      <option name="MAIN_CLASS_NAME" value="loggedinmainpage.LoggedInMainPageTest" />
+      <option name="METHOD_NAME" value="sendFileFromOuterSourceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SearchResultPageTest.morePagesListsTest" />
+        <item itemvalue="JUnit.FerrariPageTest.dataListTest" />
         <item itemvalue="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest" />
-        <item itemvalue="JUnit.ExternalLinkPageTest.deleteSendedDataTest" />
-        <item itemvalue="JUnit.PrivacyAndPolicyPageTest.privacyPolicyTest" />
-        <item itemvalue="JUnit.StarterPageTest.clickEnglishButtonTest" />
+        <item itemvalue="JUnit.LoggedInMainPageTest.sendFileFromOuterSourceTest" />
+        <item itemvalue="JUnit.ExternalLinkPageTest.newDataSendTest" />
+        <item itemvalue="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628243946224</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Edited one file.">
+      <created>1628244854412</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1628244854412</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +448,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Privacy and Policy page test has added." />
     <MESSAGE value="Privacy and Policy page test has added2." />
     <MESSAGE value="All methods has added." />
     <MESSAGE value="&quot;--headless&quot; has uncommented." />
@@ -438,6 +472,17 @@
     <MESSAGE value="headless offcomit forgotten" />
     <MESSAGE value="Unused pages deleted and Read.ME file has added." />
     <MESSAGE value="Read.ME file edited." />
-    <option name="LAST_COMMIT_MESSAGE" value="Read.ME file edited." />
+    <MESSAGE value="Edited one file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited one file." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

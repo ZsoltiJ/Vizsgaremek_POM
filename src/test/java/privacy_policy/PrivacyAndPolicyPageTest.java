@@ -3,9 +3,10 @@ package privacy_policy;
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 import pages.MainPage;
 import pages.PrivacyAndPolicyPage;
+
+import java.util.List;
 
 
 public class PrivacyAndPolicyPageTest extends BaseTest {
@@ -13,19 +14,22 @@ public class PrivacyAndPolicyPageTest extends BaseTest {
    PrivacyAndPolicyPage privacyAndPolicyPage;
    MainPage mainPage;
 
-   private final By CONTROLLWORDS = By.xpath("//*[@id='mw-normal-catlinks']/ul/li[1]/a");
+
 
    @Test
-   public void privacyPolicyTest(){
+   public void privacyPolicyTest() throws InterruptedException {
       privacyAndPolicyPage = new PrivacyAndPolicyPage(getDriver());
       privacyAndPolicyPage.navigateToPrivacyPolicy();
       mainPage = new MainPage(getDriver());
       mainPage.clickOnPrivacyAndPolicyButton();
       privacyAndPolicyPage.scrollDown();
+      List<String> controlWords = privacyAndPolicyPage.clickOnPrivacyAndPolicyArchived();
+      String actual = controlWords.toString();
+      String expected = "[19 June 2021, 14 February 2018, 4 April 2012, 19 August 2008, 21 June 2006, 10 April 2005]";
 
-      Assertions.assertEquals("Privacy policy", getDriver().findElement(CONTROLLWORDS).getText());
-      System.out.println(getDriver().findElement(CONTROLLWORDS).getText());
+      Assertions.assertEquals(expected, actual);
    }
+
 }
 
 

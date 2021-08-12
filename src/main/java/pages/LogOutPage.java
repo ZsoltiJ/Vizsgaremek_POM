@@ -1,5 +1,6 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class LogOutPage {
@@ -7,7 +8,7 @@ public class LogOutPage {
     WebDriver webdriver;
 
 
-    // private final By LOGOUTBUTTON = By.xpath("//*[@id='pt-logout']/a");
+    private final By LOGINBUTTONCONTROL = By.xpath("//*[@id='pt-login']/a");
 
 
     public LogOutPage(WebDriver webdriver) {
@@ -15,12 +16,13 @@ public class LogOutPage {
         this.webdriver = webdriver;
     }
 
-   /* public void loggingOut(){
+    public String loggingOut(){
 
-        webdriver.findElement(LOGOUTBUTTON).click();
+        String actual = webdriver.findElement(LOGINBUTTONCONTROL).getText();
+        return actual;
 
 
-    } */
+    }
 
 
 

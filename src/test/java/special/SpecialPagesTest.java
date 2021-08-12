@@ -31,7 +31,7 @@ public class SpecialPagesTest extends BaseTest {
 
 
 
-        Assertions.assertEquals(URL , getDriver().getCurrentUrl());
+        Assertions.assertEquals(URL , specialPages.checkUrl());
 
     }
 

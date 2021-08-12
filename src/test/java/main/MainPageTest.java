@@ -3,7 +3,6 @@ package main;
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 import pages.LoggedInMainPage;
 import pages.MainPage;
 import utils.Utils;
@@ -16,8 +15,8 @@ public class MainPageTest extends BaseTest {
     LoggedInMainPage loggedInMainPage;
     private String[] temporaryFile;
 
-    private final By LOGOUTBUTTON = By.xpath("//*[@id=\"pt-logout\"]/a");
-    private final By LOGINERRORMESSAGE = By.xpath("//*[@id='userloginForm']/form/div[1]");
+
+
 
 
 
@@ -29,11 +28,10 @@ public class MainPageTest extends BaseTest {
         mainPage.sendUsername("Szuperteszter");
         mainPage.sendPassword("acbgF");
         mainPage.clickBlueLoginButton();
-
         String expected = "Incorrect username or password entered.";
-        String actual = getDriver().findElement(LOGINERRORMESSAGE).getText();
 
-        Assertions.assertTrue(actual.contains(expected));
+
+        Assertions.assertTrue(mainPage.actualError().contains(expected));
     }
 
     @Test
@@ -44,7 +42,9 @@ public class MainPageTest extends BaseTest {
         mainPage.sendUsername("Szuperteszter");
         mainPage.sendPassword("Abcdefghijk");
         loggedInMainPage = mainPage.clickBlueLoginButton();
-        Assertions.assertEquals("Log out", getDriver().findElement(LOGOUTBUTTON).getText());
+        String expected = "Log out";
+
+        Assertions.assertEquals(expected, mainPage.validLog());
 
     }
 

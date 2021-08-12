@@ -18,6 +18,7 @@ public class StarterPageTest extends BaseTest {
         MainPage mainPage = starterPage.englishButtonClick();
         String actual = mainPage.getWikiText();
         String expected = "Welcome to Wikipedia,";
+
         Assertions.assertEquals(expected, actual);
     }
 
