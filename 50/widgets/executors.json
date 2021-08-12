@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://ZsoltiJ.github.io/Vizsgaremek_POM",
+  "buildOrder" : 50,
+  "buildName" : "GitHub Actions Run #1124926535",
+  "buildUrl" : "https://github.com/ZsoltiJ/Vizsgaremek_POM/actions/runs/1124926535",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/50/"
+} ]
