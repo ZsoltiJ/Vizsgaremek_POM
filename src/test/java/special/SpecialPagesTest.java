@@ -2,6 +2,7 @@ package special;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.LoggedInMainPage;
 import pages.MainPage;
@@ -16,6 +17,7 @@ public class SpecialPagesTest extends BaseTest {
     private final String URL = "https://en.wikipedia.org/wiki/Special:SpecialPages";
 
     @Test
+    @DisplayName("TC-14, Átnavigálás másik weboldalra.")
     public void clickOnExternalLinkTest() {
        /* mainPage = new MainPage(getDriver());
         mainPage.navigateToLogin();

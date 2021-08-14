@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="README.md has fixed.">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="SearchResultPage has fixed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPageSavedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainPageSavedText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manuális_tesztesetek/Vizsgareme_POM_manuális_teszesetek.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/external/ExternalLinkPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/external/ExternalLinkPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/loggedinmainpage/LoggedInMainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/loggedinmainpage/LoggedInMainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/logout/LogOutPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/logout/LogOutPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/main/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/main/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/searchresult/SearchResultPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/searchresult/SearchResultPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/special/SpecialPagesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/special/SpecialPagesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/starter/StarterPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/starter/StarterPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/main/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/MainPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/starter/StarterPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/starter/StarterPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,23 +75,7 @@
       <recent name="D:\Automation_Tester\Vizsgaremek_POM\src\test\java\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SearchResultPageTest.morePagesListsTest">
-    <configuration name="ExternalLinkPageTest.newDataSendTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vizsgaremek_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="external.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="external" />
-      <option name="MAIN_CLASS_NAME" value="external.ExternalLinkPageTest" />
-      <option name="METHOD_NAME" value="newDataSendTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest2">
     <configuration name="FerrariPageTest.dataListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
@@ -96,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoggedInMainPageTest.searchAndSaveToFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoggedInMainPageTest.searchAndSaveToFileTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +102,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="loggedinmainpage" />
       <option name="MAIN_CLASS_NAME" value="loggedinmainpage.LoggedInMainPageTest" />
-      <option name="METHOD_NAME" value="searchAndSaveToFileTest" />
+      <option name="METHOD_NAME" value="searchAndSaveToFileTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,6 +119,22 @@
       <option name="PACKAGE_NAME" value="loggedinmainpage" />
       <option name="MAIN_CLASS_NAME" value="loggedinmainpage.LoggedInMainPageTest" />
       <option name="METHOD_NAME" value="sendFileFromOuterSourceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrivacyAndPolicyPageTest.privacyPolicyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vizsgaremek_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="privacy_policy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="privacy_policy" />
+      <option name="MAIN_CLASS_NAME" value="privacy_policy.PrivacyAndPolicyPageTest" />
+      <option name="METHOD_NAME" value="privacyPolicyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest2" />
+        <item itemvalue="JUnit.LoggedInMainPageTest.sendFileFromOuterSourceTest" />
+        <item itemvalue="JUnit.PrivacyAndPolicyPageTest.privacyPolicyTest" />
         <item itemvalue="JUnit.SearchResultPageTest.morePagesListsTest" />
         <item itemvalue="JUnit.FerrariPageTest.dataListTest" />
-        <item itemvalue="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest" />
-        <item itemvalue="JUnit.LoggedInMainPageTest.sendFileFromOuterSourceTest" />
-        <item itemvalue="JUnit.ExternalLinkPageTest.newDataSendTest" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628791428878</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="SearchResultPage has fixed.">
+      <created>1628792209489</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1628792209489</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -445,7 +464,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="New comment." />
     <MESSAGE value="pom.xml service" />
     <MESSAGE value="Maybe final version has added." />
     <MESSAGE value="new try." />
@@ -470,7 +488,8 @@
     <MESSAGE value="PrivacyAndPolicyPage and tests has fixed." />
     <MESSAGE value="headless forgotten." />
     <MESSAGE value="README.md has fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="README.md has fixed." />
+    <MESSAGE value="SearchResultPage has fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="SearchResultPage has fixed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

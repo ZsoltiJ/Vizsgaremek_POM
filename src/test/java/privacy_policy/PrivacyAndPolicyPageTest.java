@@ -2,6 +2,7 @@ package privacy_policy;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
 import pages.PrivacyAndPolicyPage;
@@ -17,6 +18,7 @@ public class PrivacyAndPolicyPageTest extends BaseTest {
 
 
    @Test
+   @DisplayName("TC-13, Adatvédelmi nyilatkozat használata.")
    public void privacyPolicyTest() throws InterruptedException {
       privacyAndPolicyPage = new PrivacyAndPolicyPage(getDriver());
       privacyAndPolicyPage.navigateToPrivacyPolicy();

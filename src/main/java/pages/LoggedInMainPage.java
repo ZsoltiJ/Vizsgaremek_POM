@@ -164,7 +164,7 @@ public class LoggedInMainPage {
         String actualText = "";
         String message = "";
 
-        // old saved file
+        // pevious saved file
         try {
             File myObj = new File("MainPageSavedText.txt");
             Scanner myReader = new Scanner(myObj);

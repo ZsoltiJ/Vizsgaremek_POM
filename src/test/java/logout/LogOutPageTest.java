@@ -2,6 +2,7 @@ package logout;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import pages.LogOutPage;
@@ -23,6 +24,7 @@ public class LogOutPageTest extends BaseTest {
 
 
     @Test
+    @DisplayName("TC-15, Kijelentkezés a weboldalról, a fiókból.")
     public void loggingOutTest(){
         mainPage = new MainPage(getDriver());
         mainPage.navigateToLogin();

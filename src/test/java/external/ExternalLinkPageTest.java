@@ -2,6 +2,7 @@ package external;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import pages.ExternalLinkPage;
@@ -24,6 +25,7 @@ public class ExternalLinkPageTest extends BaseTest {
     private String data;
 
     @Test
+    @DisplayName("TC-10, Új adat küldése.")
     public void newDataSendTest(){
      /*   mainPage = new MainPage(getDriver());
         mainPage.navigateToLogin();
@@ -48,6 +50,7 @@ public class ExternalLinkPageTest extends BaseTest {
 
 
     @Test
+    @DisplayName("TC-12, Adat(ok) törlése.")
     public void deleteSendedDataTest(){
        /* mainPage = new MainPage(getDriver());
         mainPage.navigateToLogin();

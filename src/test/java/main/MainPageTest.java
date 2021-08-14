@@ -2,6 +2,7 @@ package main;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.LoggedInMainPage;
 import pages.MainPage;
@@ -21,6 +22,7 @@ public class MainPageTest extends BaseTest {
 
 
     @Test
+    @DisplayName("TC-04, Sikertelen bejelentkezés, helytelen jelszóval.")
     public void invalidLoginTest(){
         mainPage = new MainPage(getDriver());
         mainPage.navigateToLogin();
@@ -35,6 +37,7 @@ public class MainPageTest extends BaseTest {
     }
 
     @Test
+    @DisplayName("TC-03, Sikeres bejelentkezés, helyes adatokkal.")
     public void validLoginTest() {
         mainPage = new MainPage(getDriver());
         mainPage.navigateToLogin();

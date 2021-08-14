@@ -23,6 +23,7 @@ public class LoggedInMainPageTest extends BaseTest {
 
 
     @Test
+    @DisplayName("TC-05, Bevitt adat módosítása.")
     public void dataModifingTest() {
         loggedInMainPage = new LoggedInMainPage(getDriver());
         loggedInMainPage.navigateUrl();
@@ -48,6 +49,7 @@ public class LoggedInMainPageTest extends BaseTest {
     } */
 
     @Test
+    @DisplayName("TC-08, Adadbevitel külső forrásból, folyamatosan.")
     public void sendFileFromOuterSourceTest() throws FileNotFoundException {
         utils = new Utils(getDriver());
         utils.readOuterData();

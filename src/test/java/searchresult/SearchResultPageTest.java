@@ -2,6 +2,7 @@ package searchresult;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import pages.LoggedInMainPage;
@@ -19,6 +20,7 @@ public class SearchResultPageTest extends BaseTest {
 
 
     @Test
+    @DisplayName("TC-11, Többoldalas lista bejárása.")
     public void morePagesListsTest() {
 
         loggedInMainPage = new LoggedInMainPage(getDriver());
