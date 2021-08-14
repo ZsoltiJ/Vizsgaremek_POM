@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <This file has not modified.> but was: <Successfully wrote to the file.>",
+      "children" : [ {
+        "name" : "TC-07, File nem kerül lementésre, azonos tartalom esetén.",
+        "uid" : "a9f9a2b9bf78af77",
+        "parentUid" : "03b9264843ad2c3d15abcbf615029a44",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628952036870,
+          "stop" : 1628952037960,
+          "duration" : 1090
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03b9264843ad2c3d15abcbf615029a44"
+    }, {
+      "name" : "expected: <546> but was: <551>",
+      "children" : [ {
+        "name" : "dataListTest()",
+        "uid" : "c3d224e6a0f0d16b",
+        "parentUid" : "73108862cd96393528450f080baba19f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628952122151,
+          "stop" : 1628952252596,
+          "duration" : 130445
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73108862cd96393528450f080baba19f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
