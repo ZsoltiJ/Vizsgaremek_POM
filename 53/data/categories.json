@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <This file has not modified.> but was: <Successfully wrote to the file.>",
+      "children" : [ {
+        "name" : "TC-07, File nem kerül lementésre, azonos tartalom esetén.",
+        "uid" : "90bda698d314cde",
+        "parentUid" : "03b9264843ad2c3d15abcbf615029a44",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628952178925,
+          "stop" : 1628952180232,
+          "duration" : 1307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03b9264843ad2c3d15abcbf615029a44"
+    }, {
+      "name" : "expected: <546> but was: <551>",
+      "children" : [ {
+        "name" : "TC-09, Ellenőrizze, hogy a megjelölt, megfelelő adatot találja meg, listaként járja be weboldalt és a találatokat számolja meg.",
+        "uid" : "c1eb7ee6042f6955",
+        "parentUid" : "73108862cd96393528450f080baba19f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628952258687,
+          "stop" : 1628952394188,
+          "duration" : 135501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73108862cd96393528450f080baba19f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
