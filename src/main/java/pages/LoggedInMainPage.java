@@ -186,7 +186,7 @@ public class LoggedInMainPage {
         System.out.println(actualText);
         System.out.println(savedFile);
 
-        //Assertions.assertEquals(actualText, savedFile); // control under work.
+        // Assertions.assertEquals(actualText, savedFile); // control under work.
 
         if (!actualText.equals(savedFile)) {
             try {
