@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="DisplayNames has added.">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="Some file has modified.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainPageSavedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainPageSavedText.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vizsgareme_POM_manuális_teszesetek.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Vizsgareme_POM_manuális_teszesetek.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FerrariPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FerrariPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -445,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628952097277</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Some file has modified.">
+      <created>1629013479520</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1629013479520</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -461,7 +466,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Maybe final version has added." />
     <MESSAGE value="new try." />
     <MESSAGE value="new try2." />
     <MESSAGE value="sandbox page test." />
@@ -486,7 +490,8 @@
     <MESSAGE value="README.md has fixed." />
     <MESSAGE value="SearchResultPage has fixed." />
     <MESSAGE value="DisplayNames has added." />
-    <option name="LAST_COMMIT_MESSAGE" value="DisplayNames has added." />
+    <MESSAGE value="Some file has modified." />
+    <option name="LAST_COMMIT_MESSAGE" value="Some file has modified." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

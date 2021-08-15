@@ -24,5 +24,3 @@ Juhász Zsolt
 Megjegyzések: A wikipedia.org oldalát választottam a tesztekhez.  
               A tesztek az src mappán belül a test/java mappában találhatóak,
               a tesztjelentés az alábbi linken: https://zsoltij.github.io/Vizsgaremek_POM/       
-a manuális teszesetek a manuális_tesztesetek mappában a manuális_teszesetek.xlsx filera 
-kattintva nyílik meg, ha nem akkor a download gombra kattintva.  

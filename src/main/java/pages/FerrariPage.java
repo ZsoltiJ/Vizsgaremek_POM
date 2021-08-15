@@ -14,7 +14,6 @@ public class FerrariPage {
     private final By FINDELEMENT = By.xpath("//*");
 
 
-
     public FerrariPage(WebDriver webdriver) {
         this.webdriver = webdriver;
 
@@ -24,7 +23,6 @@ public class FerrariPage {
 
         webdriver.get(URL);
     }
-
 
 
     public int searchCarName(String carName) {
@@ -49,9 +47,9 @@ public class FerrariPage {
 
 
         }
-             System.out.println("'Ferrari' is founded: " + number + " pieces.");
-             return  number;
-        }
+        System.out.println("'Ferrari' is founded: " + number + " pieces.");
+        return number;
+    }
 
 
 }
