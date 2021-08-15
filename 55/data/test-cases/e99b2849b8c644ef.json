@@ -1,0 +1,283 @@
+{
+  "uid" : "e99b2849b8c644ef",
+  "name" : "TC-15, Kijelentkezés a weboldalról, a fiókból.",
+  "fullName" : "logout.LogOutPageTest.loggingOutTest",
+  "historyId" : "3e169058230e92f134bd858a2f7c78ac",
+  "time" : {
+    "start" : 1629014600312,
+    "stop" : 1629014604125,
+    "duration" : 3813
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitialTest",
+    "time" : {
+      "start" : 1629014600312,
+      "stop" : 1629014600605,
+      "duration" : 293
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629014604053,
+      "stop" : 1629014604125,
+      "duration" : 72
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-942"
+  }, {
+    "name" : "thread",
+    "value" : "2885@fv-az77-942.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "logout.LogOutPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "logout.LogOutPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loggingOutTest"
+  }, {
+    "name" : "suite",
+    "value" : "logout.LogOutPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 3,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 27
+      },
+      "items" : [ {
+        "uid" : "e20cf6bd66d7c7ae",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/54//#testresult/e20cf6bd66d7c7ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629013633720,
+          "stop" : 1629013637606,
+          "duration" : 3886
+        }
+      }, {
+        "uid" : "3b2d25a41757ded8",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/53//#testresult/3b2d25a41757ded8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628952238598,
+          "stop" : 1628952242839,
+          "duration" : 4241
+        }
+      }, {
+        "uid" : "7bfd5c35277f28ca",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/52//#testresult/7bfd5c35277f28ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628952105343,
+          "stop" : 1628952109113,
+          "duration" : 3770
+        }
+      }, {
+        "uid" : "57bfa4eef4df191a",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/51//#testresult/57bfa4eef4df191a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628792381474,
+          "stop" : 1628792387763,
+          "duration" : 6289
+        }
+      }, {
+        "uid" : "8f5bf3f66ed0f58",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/50//#testresult/8f5bf3f66ed0f58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628791580939,
+          "stop" : 1628791584867,
+          "duration" : 3928
+        }
+      }, {
+        "uid" : "5f71beaae7a0166d",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/49//#testresult/5f71beaae7a0166d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628790862106,
+          "stop" : 1628790865974,
+          "duration" : 3868
+        }
+      }, {
+        "uid" : "3a8bc9054aa062e3",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/48//#testresult/3a8bc9054aa062e3",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az83-198', ip: '10.1.0.49', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x557387712a63 <unknown>\n#1 0x557387487458 <unknown>\n#2 0x5573874aa2e3 <unknown>\n#3 0x5573874a5e9f <unknown>\n#4 0x5573874dfb72 <unknown>\n#5 0x5573874d9fd3 <unknown>\n#6 0x5573874b0514 <unknown>\n#7 0x5573874b1505 <unknown>\n#8 0x55738773ee2e <unknown>\n#9 0x557387754886 <unknown>\n#10 0x55738773fd75 <unknown>\n#11 0x557387755d94 <unknown>\n#12 0x5573877368eb <unknown>\n#13 0x557387770cd8 <unknown>\n#14 0x557387770e58 <unknown>\n#15 0x55738778adfd <unknown>\n#16 0x7ff2ceaa0609 start_thread\n",
+        "time" : {
+          "start" : 1628790543998,
+          "stop" : 1628790544173,
+          "duration" : 175
+        }
+      }, {
+        "uid" : "fb5d35111c7679b9",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/47//#testresult/fb5d35111c7679b9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628244995976,
+          "stop" : 1628244999904,
+          "duration" : 3928
+        }
+      }, {
+        "uid" : "391b0f4aec0ec387",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/46//#testresult/391b0f4aec0ec387",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628244083063,
+          "stop" : 1628244087344,
+          "duration" : 4281
+        }
+      }, {
+        "uid" : "5f82c93a489ca6b0",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/5f82c93a489ca6b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628243835511,
+          "stop" : 1628243841941,
+          "duration" : 6430
+        }
+      }, {
+        "uid" : "423d0ae294f5502e",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/44//#testresult/423d0ae294f5502e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628181828896,
+          "stop" : 1628181834166,
+          "duration" : 5270
+        }
+      }, {
+        "uid" : "87f0eca49816b044",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/43//#testresult/87f0eca49816b044",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az74-744', ip: '10.1.0.26', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x558a75829a63 <unknown>\n#1 0x558a7559e458 <unknown>\n#2 0x558a755c12e3 <unknown>\n#3 0x558a755bce9f <unknown>\n#4 0x558a755f6b72 <unknown>\n#5 0x558a755f0fd3 <unknown>\n#6 0x558a755c7514 <unknown>\n#7 0x558a755c8505 <unknown>\n#8 0x558a75855e2e <unknown>\n#9 0x558a7586b886 <unknown>\n#10 0x558a75856d75 <unknown>\n#11 0x558a7586cd94 <unknown>\n#12 0x558a7584d8eb <unknown>\n#13 0x558a75887cd8 <unknown>\n#14 0x558a75887e58 <unknown>\n#15 0x558a758a1dfd <unknown>\n#16 0x7f75b9536609 start_thread\n",
+        "time" : {
+          "start" : 1628181603980,
+          "stop" : 1628181604120,
+          "duration" : 140
+        }
+      }, {
+        "uid" : "e7f974253e7e9158",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/42//#testresult/e7f974253e7e9158",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628011648346,
+          "stop" : 1628011652054,
+          "duration" : 3708
+        }
+      }, {
+        "uid" : "3f32239ce9a6e3dd",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/41//#testresult/3f32239ce9a6e3dd",
+        "status" : "skipped",
+        "statusDetails" : "class logout.LogOutPageTest is @Disabled",
+        "time" : {
+          "start" : 1628010430266,
+          "stop" : 1628010430266,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "50d8ce95d10ba737",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/40//#testresult/50d8ce95d10ba737",
+        "status" : "skipped",
+        "statusDetails" : "class logout.LogOutPageTest is @Disabled",
+        "time" : {
+          "start" : 1628009789295,
+          "stop" : 1628009789295,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "f6d657540c9bda6b",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/39//#testresult/f6d657540c9bda6b",
+        "status" : "skipped",
+        "statusDetails" : "class logout.LogOutPageTest is @Disabled",
+        "time" : {
+          "start" : 1628009306126,
+          "stop" : 1628009306126,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "87f66a7834805fdb",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/38//#testresult/87f66a7834805fdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628008161575,
+          "stop" : 1628008168506,
+          "duration" : 6931
+        }
+      }, {
+        "uid" : "3da42ce0f43451a3",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/37//#testresult/3da42ce0f43451a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628007538538,
+          "stop" : 1628007544174,
+          "duration" : 5636
+        }
+      }, {
+        "uid" : "a961303cf95fb09d",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/36//#testresult/a961303cf95fb09d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628006094999,
+          "stop" : 1628006101873,
+          "duration" : 6874
+        }
+      }, {
+        "uid" : "8666df94c1b6f68f",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/35//#testresult/8666df94c1b6f68f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628005627755,
+          "stop" : 1628005633906,
+          "duration" : 6151
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e99b2849b8c644ef.json",
+  "parameterValues" : [ ]
+}
