@@ -1,0 +1,285 @@
+{
+  "uid" : "ba782ed995da04dc",
+  "name" : "TC-09, Ellenőrizze, hogy a megjelölt, megfelelő adatot találja meg, listaként járja be weboldalt és a találatokat számolja meg.",
+  "fullName" : "ferrari.FerrariPageTest.dataListTest",
+  "historyId" : "2e07d7759bb4ea6887acb97cc3399441",
+  "time" : {
+    "start" : 1629120899719,
+    "stop" : 1629121012174,
+    "duration" : 112455
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitialTest",
+    "time" : {
+      "start" : 1629120899720,
+      "stop" : 1629120899995,
+      "duration" : 275
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629121012103,
+      "stop" : 1629121012174,
+      "duration" : 71
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az42-898"
+  }, {
+    "name" : "thread",
+    "value" : "2895@fv-az42-898.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ferrari.FerrariPageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ferrari.FerrariPageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "dataListTest"
+  }, {
+    "name" : "suite",
+    "value" : "ferrari.FerrariPageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 5,
+        "skipped" : 3,
+        "passed" : 19,
+        "unknown" : 0,
+        "total" : 29
+      },
+      "items" : [ {
+        "uid" : "33103daf7ea36af7",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/56//#testresult/33103daf7ea36af7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629096706346,
+          "stop" : 1629096819385,
+          "duration" : 113039
+        }
+      }, {
+        "uid" : "a8e2aa47d1435dca",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/55//#testresult/a8e2aa47d1435dca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629014621329,
+          "stop" : 1629014763199,
+          "duration" : 141870
+        }
+      }, {
+        "uid" : "f91caf4c38e30452",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/54//#testresult/f91caf4c38e30452",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629013651465,
+          "stop" : 1629013780036,
+          "duration" : 128571
+        }
+      }, {
+        "uid" : "c1eb7ee6042f6955",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/53//#testresult/c1eb7ee6042f6955",
+        "status" : "failed",
+        "statusDetails" : "expected: <546> but was: <551>",
+        "time" : {
+          "start" : 1628952258687,
+          "stop" : 1628952394188,
+          "duration" : 135501
+        }
+      }, {
+        "uid" : "c3d224e6a0f0d16b",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/52//#testresult/c3d224e6a0f0d16b",
+        "status" : "failed",
+        "statusDetails" : "expected: <546> but was: <551>",
+        "time" : {
+          "start" : 1628952122151,
+          "stop" : 1628952252596,
+          "duration" : 130445
+        }
+      }, {
+        "uid" : "9f49b75e1912f275",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/51//#testresult/9f49b75e1912f275",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628792403286,
+          "stop" : 1628792525266,
+          "duration" : 121980
+        }
+      }, {
+        "uid" : "3085777501a97d9f",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/50//#testresult/3085777501a97d9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628791601417,
+          "stop" : 1628791722009,
+          "duration" : 120592
+        }
+      }, {
+        "uid" : "1e1252602ef93abc",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/49//#testresult/1e1252602ef93abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628790880182,
+          "stop" : 1628791000996,
+          "duration" : 120814
+        }
+      }, {
+        "uid" : "e8ba120e35fdc5a4",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/48//#testresult/e8ba120e35fdc5a4",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az83-198', ip: '10.1.0.49', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x55678d772a63 <unknown>\n#1 0x55678d4e7458 <unknown>\n#2 0x55678d50a2e3 <unknown>\n#3 0x55678d505e9f <unknown>\n#4 0x55678d53fb72 <unknown>\n#5 0x55678d539fd3 <unknown>\n#6 0x55678d510514 <unknown>\n#7 0x55678d511505 <unknown>\n#8 0x55678d79ee2e <unknown>\n#9 0x55678d7b4886 <unknown>\n#10 0x55678d79fd75 <unknown>\n#11 0x55678d7b5d94 <unknown>\n#12 0x55678d7968eb <unknown>\n#13 0x55678d7d0cd8 <unknown>\n#14 0x55678d7d0e58 <unknown>\n#15 0x55678d7eadfd <unknown>\n#16 0x7f6ea2e6e609 start_thread\n",
+        "time" : {
+          "start" : 1628790545244,
+          "stop" : 1628790545395,
+          "duration" : 151
+        }
+      }, {
+        "uid" : "4929c581cefd51fa",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/47//#testresult/4929c581cefd51fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628245018371,
+          "stop" : 1628245131457,
+          "duration" : 113086
+        }
+      }, {
+        "uid" : "8411c6b3d0cd6eb9",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/46//#testresult/8411c6b3d0cd6eb9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628244108755,
+          "stop" : 1628244224422,
+          "duration" : 115667
+        }
+      }, {
+        "uid" : "b9408bdddce8d7b0",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/b9408bdddce8d7b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628243861357,
+          "stop" : 1628243990356,
+          "duration" : 128999
+        }
+      }, {
+        "uid" : "be37b79a25f4a580",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/44//#testresult/be37b79a25f4a580",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628181857662,
+          "stop" : 1628181971055,
+          "duration" : 113393
+        }
+      }, {
+        "uid" : "a185b53fa14ce639",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/43//#testresult/a185b53fa14ce639",
+        "status" : "broken",
+        "statusDetails" : "unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0-alpha-2', revision: 'f148142cf8', time: '2019-07-01T20:55:26'\nSystem info: host: 'fv-az74-744', ip: '10.1.0.26', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: #0 0x5600fca40a63 <unknown>\n#1 0x5600fc7b5458 <unknown>\n#2 0x5600fc7d82e3 <unknown>\n#3 0x5600fc7d3e9f <unknown>\n#4 0x5600fc80db72 <unknown>\n#5 0x5600fc807fd3 <unknown>\n#6 0x5600fc7de514 <unknown>\n#7 0x5600fc7df505 <unknown>\n#8 0x5600fca6ce2e <unknown>\n#9 0x5600fca82886 <unknown>\n#10 0x5600fca6dd75 <unknown>\n#11 0x5600fca83d94 <unknown>\n#12 0x5600fca648eb <unknown>\n#13 0x5600fca9ecd8 <unknown>\n#14 0x5600fca9ee58 <unknown>\n#15 0x5600fcab8dfd <unknown>\n#16 0x7fcdc7223609 start_thread\n",
+        "time" : {
+          "start" : 1628181605092,
+          "stop" : 1628181605250,
+          "duration" : 158
+        }
+      }, {
+        "uid" : "9fa517050d5b57f8",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/42//#testresult/9fa517050d5b57f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628011658955,
+          "stop" : 1628011800167,
+          "duration" : 141212
+        }
+      }, {
+        "uid" : "873b4600ab260f8c",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/41//#testresult/873b4600ab260f8c",
+        "status" : "skipped",
+        "statusDetails" : "class ferrari.FerrariPageTest is @Disabled",
+        "time" : {
+          "start" : 1628010430299,
+          "stop" : 1628010430299,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3daee26e76ac9aad",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/40//#testresult/3daee26e76ac9aad",
+        "status" : "skipped",
+        "statusDetails" : "class ferrari.FerrariPageTest is @Disabled",
+        "time" : {
+          "start" : 1628009789311,
+          "stop" : 1628009789311,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "a82dacede9774258",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/39//#testresult/a82dacede9774258",
+        "status" : "skipped",
+        "statusDetails" : "class ferrari.FerrariPageTest is @Disabled",
+        "time" : {
+          "start" : 1628009306150,
+          "stop" : 1628009306150,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "eab73b2b8306e90b",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/38//#testresult/eab73b2b8306e90b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628008175859,
+          "stop" : 1628008297633,
+          "duration" : 121774
+        }
+      }, {
+        "uid" : "9fe7d2f1cf1fc700",
+        "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/37//#testresult/9fe7d2f1cf1fc700",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628007551358,
+          "stop" : 1628007662233,
+          "duration" : 110875
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ba782ed995da04dc.json",
+  "parameterValues" : [ ]
+}
