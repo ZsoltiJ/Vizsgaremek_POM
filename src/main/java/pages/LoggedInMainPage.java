@@ -116,6 +116,7 @@ public class LoggedInMainPage {
     }
 
 
+
     public void clickOnInnerSearchButton() {
 
         webdriver.findElement(INNERSEARCHBUTTON).click();

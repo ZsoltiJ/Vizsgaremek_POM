@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="README has modified.">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="README has modified-2.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainPageSavedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainPageSavedText.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ExternalLinkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ExternalLinkPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/FerrariPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/FerrariPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vizsgareme_POM_manuális_teszesetek.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Vizsgareme_POM_manuális_teszesetek.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PrivacyAndPolicyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PrivacyAndPolicyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SearchResultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/main/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/main/MainPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/privacy_policy/PrivacyAndPolicyPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/main/MainPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/main/MainPageTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,23 +65,7 @@
       <recent name="D:\Automation_Tester\Vizsgaremek_POM\src\test\java\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FerrariPageTest.dataListTest">
-    <configuration name="ExternalLinkPageTest.newDataSendTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vizsgaremek_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="external.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="external" />
-      <option name="MAIN_CLASS_NAME" value="external.ExternalLinkPageTest" />
-      <option name="METHOD_NAME" value="newDataSendTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PrivacyAndPolicyPageTest.privacyPolicyTest">
     <configuration name="FerrariPageTest.dataListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
@@ -96,6 +77,22 @@
       <option name="PACKAGE_NAME" value="ferrari" />
       <option name="MAIN_CLASS_NAME" value="ferrari.FerrariPageTest" />
       <option name="METHOD_NAME" value="dataListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoggedInMainPageTest.sendFileFromOuterSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vizsgaremek_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loggedinmainpage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="loggedinmainpage" />
+      <option name="MAIN_CLASS_NAME" value="loggedinmainpage.LoggedInMainPageTest" />
+      <option name="METHOD_NAME" value="sendFileFromOuterSourceTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FerrariPageTest.dataListTest" />
         <item itemvalue="JUnit.PrivacyAndPolicyPageTest.privacyPolicyTest" />
+        <item itemvalue="JUnit.LoggedInMainPageTest.sendFileFromOuterSourceTest" />
+        <item itemvalue="JUnit.FerrariPageTest.dataListTest" />
         <item itemvalue="JUnit.MainPageTest.validLoginTest" />
         <item itemvalue="JUnit.MainPageTest.invalidLoginTest" />
-        <item itemvalue="JUnit.ExternalLinkPageTest.newDataSendTest" />
       </list>
     </recent_temporary>
   </component>
@@ -462,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629014447204</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="README has modified-2.">
+      <created>1629096537909</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1629096537909</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,7 +482,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new try2." />
     <MESSAGE value="sandbox page test." />
     <MESSAGE value="sandbox page test - textarea" />
     <MESSAGE value="sandbox page test - textarea + wait(5000)" />
@@ -503,7 +506,8 @@
     <MESSAGE value="DisplayNames has added." />
     <MESSAGE value="Some file has modified." />
     <MESSAGE value="README has modified." />
-    <option name="LAST_COMMIT_MESSAGE" value="README has modified." />
+    <MESSAGE value="README has modified-2." />
+    <option name="LAST_COMMIT_MESSAGE" value="README has modified-2." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
