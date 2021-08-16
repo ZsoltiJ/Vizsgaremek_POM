@@ -1,0 +1,195 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az74-944",
+    "children" : [ {
+      "name" : "2941@fv-az74-944.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "TC-13, Adatvédelmi nyilatkozat használata.",
+        "uid" : "81a9612f29fe1917",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136460959,
+          "stop" : 1629136465237,
+          "duration" : 4278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-02, A nyelv kiválasztása a honlapon.",
+        "uid" : "d4df7548e7d3e6f9",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136326208,
+          "stop" : 1629136327318,
+          "duration" : 1110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-07, File nem kerül lementésre, azonos tartalom esetén.",
+        "uid" : "50536b23c860a044",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136253211,
+          "stop" : 1629136254172,
+          "duration" : 961
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-06, File lementése eltérő tartalom esetén.",
+        "uid" : "544058c9a8582243",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136252465,
+          "stop" : 1629136253208,
+          "duration" : 743
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-08, Adadbevitel külső forrásból, folyamatosan.",
+        "uid" : "e0fe7c91b4e8d556",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136243851,
+          "stop" : 1629136252459,
+          "duration" : 8608
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-12, Adat(ok) törlése.",
+        "uid" : "a28627639534e6ab",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136327326,
+          "stop" : 1629136330442,
+          "duration" : 3116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-04, Sikertelen bejelentkezés, helytelen jelszóval.",
+        "uid" : "79643da9ebcd5ed1",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136336743,
+          "stop" : 1629136338756,
+          "duration" : 2013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-10, Új adat küldése.",
+        "uid" : "105babc2aa9352b6",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136330445,
+          "stop" : 1629136333325,
+          "duration" : 2880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-09, Ellenőrizze, hogy a megjelölt, megfelelő adatot találja meg, listaként járja be weboldalt és a találatokat számolja meg.",
+        "uid" : "5bfc373b23d6181f",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136338762,
+          "stop" : 1629136460954,
+          "duration" : 122192
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-03, Sikeres bejelentkezés, helyes adatokkal.",
+        "uid" : "b884619f46f855de",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136333330,
+          "stop" : 1629136336741,
+          "duration" : 3411
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-14, Átnavigálás másik weboldalra.",
+        "uid" : "c3dad79780345168",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136324988,
+          "stop" : 1629136326205,
+          "duration" : 1217
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-11, Többoldalas lista bejárása.",
+        "uid" : "36623218b4635075",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136254178,
+          "stop" : 1629136318398,
+          "duration" : 64220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-15, Kijelentkezés a weboldalról, a fiókból.",
+        "uid" : "12e9010d5ffee402",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136318412,
+          "stop" : 1629136324967,
+          "duration" : 6555
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TC-05, Bevitt adat módosítása.",
+        "uid" : "69f27604f58eef50",
+        "parentUid" : "ec0e79ffc352e988597998ba737660f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629136235371,
+          "stop" : 1629136243773,
+          "duration" : 8402
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ec0e79ffc352e988597998ba737660f4"
+    } ],
+    "uid" : "2e072804a9c24eec34bd707ad820879d"
+  } ],
+  "name" : "timeline"
+}
