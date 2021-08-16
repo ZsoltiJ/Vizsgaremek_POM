@@ -60,10 +60,11 @@ public class SearchResultPage {
                 System.out.println(link.getText());
 
             }
-             //System.out.println(l);
+            // System.out.println(l);
             try {
 
                 wait.until(ExpectedConditions.visibilityOfElementLocated(MORE500BUTTON));
+                //wait.until(ExpectedConditions.elementToBeClickable(MORE500BUTTON));
 
                 webdriver.findElement(MORE500BUTTON).click();
             } catch (StaleElementReferenceException e) {

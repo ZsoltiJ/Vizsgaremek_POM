@@ -32,7 +32,7 @@ public class PrivacyAndPolicyPage {
 
     public void scrollDown() {
         JavascriptExecutor js = (JavascriptExecutor) webdriver;
-        js.executeScript("window.scrollBy(0, 14000)");
+        js.executeScript("window.scrollBy(0, 15000)");
     }
 
     public List<String> clickOnPrivacyAndPolicyArchived() {

@@ -46,7 +46,7 @@ public class ExternalLinkPage {
             }
 
         }
-        System.out.println(counter);
+        System.out.println("Links founded: " + counter);
         return counter;
 
     }

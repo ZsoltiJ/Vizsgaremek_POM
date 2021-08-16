@@ -32,7 +32,6 @@ public class LoggedInMainPage {
     public final By BUTTON100 = By.xpath("//*[@id=\"mw-content-text\"]/div[4]/p[2]/a[4]");
 
 
-
     public LoggedInMainPage(WebDriver webdriver) {
 
         this.webdriver = webdriver;
@@ -144,9 +143,9 @@ public class LoggedInMainPage {
             }
 
         }
-            System.out.println("Number of links: " + counter);
+        System.out.println("Number of links: " + counter);
 
-          return isCaptcha;
+        return isCaptcha;
 
 
     }
@@ -164,7 +163,7 @@ public class LoggedInMainPage {
         String actualText = "";
         String message = "";
 
-        // pevious saved file
+        // previous saved file
         try {
             File myObj = new File("MainPageSavedText.txt");
             Scanner myReader = new Scanner(myObj);
@@ -180,13 +179,13 @@ public class LoggedInMainPage {
         }
 
         actualText = webdriver.findElement(HEADERTEXT).getText() + "\n";
-        actualText  += webdriver.findElement(By.xpath("//*[@id='mp-otd']")).getText() + "\n";
+        actualText += webdriver.findElement(By.xpath("//*[@id='mp-otd']")).getText() + "\n";
 
 
         System.out.println(actualText);
         System.out.println(savedFile);
 
-        // Assertions.assertEquals(actualText, savedFile); // control under work.
+        //Assertions.assertEquals(actualText, savedFile); // control under work.
 
         if (!actualText.equals(savedFile)) {
             try {
@@ -207,11 +206,11 @@ public class LoggedInMainPage {
             System.out.println(message);
 
         }
-      return message;
+        return message;
     }
 
 
-    public String fileModifying(String newData){
+    public String fileModifying(String newData) {
 
         String message = "";
 

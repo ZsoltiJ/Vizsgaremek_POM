@@ -14,7 +14,7 @@ public class MainPageTest extends BaseTest {
     MainPage mainPage;
     Utils utils;
     LoggedInMainPage loggedInMainPage;
-    private String[] temporaryFile;
+    //private String[] temporaryFile;
 
 
 

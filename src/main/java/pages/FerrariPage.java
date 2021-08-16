@@ -10,7 +10,7 @@ public class FerrariPage {
 
     WebDriver webdriver;
 
-    private final String URL = "https://en.wikipedia.org/wiki";
+    //private final String URL = "https://en.wikipedia.org/wiki";
     private final By FINDELEMENT = By.xpath("//*");
 
 
@@ -19,10 +19,10 @@ public class FerrariPage {
 
     }
 
-    public void navFerrari() {
+   /* public void navFerrari() {
 
         webdriver.get(URL);
-    }
+    } */
 
 
     public int searchCarName(String carName) {
