@@ -1,0 +1,223 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "loggedinmainpage.LoggedInMainPageTest",
+    "children" : [ {
+      "name" : "TC-05, Bevitt adat módosítása.",
+      "uid" : "12f41d8f1a0fe4d6",
+      "parentUid" : "68ca4ce317ea7053568690690a38b181",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381403538,
+        "stop" : 1629381421526,
+        "duration" : 17988
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-08, Adadbevitel külső forrásból, folyamatosan.",
+      "uid" : "91c357045b65f79f",
+      "parentUid" : "68ca4ce317ea7053568690690a38b181",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381421620,
+        "stop" : 1629381430900,
+        "duration" : 9280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-06, File lementése eltérő tartalom esetén.",
+      "uid" : "cd52265ed4bb1b55",
+      "parentUid" : "68ca4ce317ea7053568690690a38b181",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381430904,
+        "stop" : 1629381431835,
+        "duration" : 931
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-07, File nem kerül lementésre, azonos tartalom esetén.",
+      "uid" : "79e70f71459aeaf",
+      "parentUid" : "68ca4ce317ea7053568690690a38b181",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381431838,
+        "stop" : 1629381433042,
+        "duration" : 1204
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "68ca4ce317ea7053568690690a38b181"
+  }, {
+    "name" : "searchresult.SearchResultPageTest",
+    "children" : [ {
+      "name" : "TC-11, Többoldalas lista bejárása.",
+      "uid" : "f999bf3ded1ed884",
+      "parentUid" : "3afce7e77c644cfd78b0a81ea125b0a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381433049,
+        "stop" : 1629381498496,
+        "duration" : 65447
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3afce7e77c644cfd78b0a81ea125b0a8"
+  }, {
+    "name" : "logout.LogOutPageTest",
+    "children" : [ {
+      "name" : "TC-15, Kijelentkezés a weboldalról, a fiókból.",
+      "uid" : "5abfb3978e870452",
+      "parentUid" : "e87f7f15bb0f0523dbb71b713fdd6a96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381498511,
+        "stop" : 1629381504456,
+        "duration" : 5945
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e87f7f15bb0f0523dbb71b713fdd6a96"
+  }, {
+    "name" : "special.SpecialPagesTest",
+    "children" : [ {
+      "name" : "TC-14, Átnavigálás másik weboldalra.",
+      "uid" : "31e858c733af93bc",
+      "parentUid" : "f65a2e439982d002229773beaf6bd28d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381504471,
+        "stop" : 1629381505760,
+        "duration" : 1289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f65a2e439982d002229773beaf6bd28d"
+  }, {
+    "name" : "starter.StarterPageTest",
+    "children" : [ {
+      "name" : "TC-02, A nyelv kiválasztása a honlapon.",
+      "uid" : "bb720efc2f8d25ea",
+      "parentUid" : "9b2589a9eed610cb04de78ffe2198df0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381505768,
+        "stop" : 1629381507397,
+        "duration" : 1629
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9b2589a9eed610cb04de78ffe2198df0"
+  }, {
+    "name" : "external.ExternalLinkPageTest",
+    "children" : [ {
+      "name" : "TC-12, Adat(ok) törlése.",
+      "uid" : "6c32e13c7d5edb50",
+      "parentUid" : "e53cb0b406c75ec7ec386a9a7b5d31e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381507405,
+        "stop" : 1629381510680,
+        "duration" : 3275
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-10, Új adat küldése.",
+      "uid" : "93b3402f37654af0",
+      "parentUid" : "e53cb0b406c75ec7ec386a9a7b5d31e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381510683,
+        "stop" : 1629381513728,
+        "duration" : 3045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e53cb0b406c75ec7ec386a9a7b5d31e8"
+  }, {
+    "name" : "main.MainPageTest",
+    "children" : [ {
+      "name" : "TC-03, Sikeres bejelentkezés, helyes adatokkal.",
+      "uid" : "975844d86eb6f10f",
+      "parentUid" : "f2791cf9f6f8a0e1b0356b7740462ce6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381513737,
+        "stop" : 1629381520212,
+        "duration" : 6475
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-04, Sikertelen bejelentkezés, helytelen jelszóval.",
+      "uid" : "173479553c5f00dc",
+      "parentUid" : "f2791cf9f6f8a0e1b0356b7740462ce6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381520216,
+        "stop" : 1629381522434,
+        "duration" : 2218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f2791cf9f6f8a0e1b0356b7740462ce6"
+  }, {
+    "name" : "ferrari.FerrariPageTest",
+    "children" : [ {
+      "name" : "TC-09, Ellenőrizze, hogy a megjelölt, megfelelő adatot találja meg, listaként járja be weboldalt és a találatokat számolja meg.",
+      "uid" : "4283410b2d2ab8e2",
+      "parentUid" : "cbe0855e65fabf0510c61f27f12c012a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381522440,
+        "stop" : 1629381649404,
+        "duration" : 126964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cbe0855e65fabf0510c61f27f12c012a"
+  }, {
+    "name" : "privacy_policy.PrivacyAndPolicyPageTest",
+    "children" : [ {
+      "name" : "TC-13, Adatvédelmi nyilatkozat használata.",
+      "uid" : "d84e9635cf2a2ec4",
+      "parentUid" : "b08884fe9c64b197e013191219b2dff5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629381649410,
+        "stop" : 1629381654384,
+        "duration" : 4974
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b08884fe9c64b197e013191219b2dff5"
+  } ],
+  "name" : "suites"
+}
