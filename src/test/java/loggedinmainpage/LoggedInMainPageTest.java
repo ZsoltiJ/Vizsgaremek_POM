@@ -2,6 +2,7 @@ package loggedinmainpage;
 
 import base.BaseTest;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -89,6 +90,7 @@ public class LoggedInMainPageTest extends BaseTest {
 
     }
 
+    @Disabled
     @Test
     @DisplayName("TC-07, File nem kerül lementésre, azonos tartalom esetén.")
     public void searchAndSaveToFileTest2() throws IOException {

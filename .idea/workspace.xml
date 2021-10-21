@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="Typo fixed.">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="New test running.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainPageSavedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainPageSavedText.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SpecialPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SpecialPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ferrari/FerrariPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
       <recent name="D:\Automation_Tester\Vizsgaremek_POM\src\test\java\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoggedInMainPageTest.dataModifingTest">
+  <component name="RunManager" selected="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest2">
     <configuration name="FerrariPageTest.dataListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
@@ -149,9 +146,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest2" />
         <item itemvalue="JUnit.LoggedInMainPageTest.dataModifingTest" />
         <item itemvalue="JUnit.PrivacyAndPolicyPageTest.privacyPolicyTest" />
-        <item itemvalue="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest2" />
         <item itemvalue="JUnit.LoggedInMainPageTest.sendFileFromOuterSourceTest" />
         <item itemvalue="JUnit.FerrariPageTest.dataListTest" />
       </list>
@@ -488,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629185131841</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="New test running.">
+      <created>1634815395905</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1634815395905</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -504,7 +508,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sandbox page test - textarea + wait(5000)" />
     <MESSAGE value="sandbox page test - textarea + wait(5000) + 1" />
     <MESSAGE value="forgotten headless" />
     <MESSAGE value="forgotten headless + other arguments" />
@@ -529,7 +532,8 @@
     <MESSAGE value="README has modified-2." />
     <MESSAGE value="Manual testcases has modified." />
     <MESSAGE value="Typo fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="Typo fixed." />
+    <MESSAGE value="New test running." />
+    <option name="LAST_COMMIT_MESSAGE" value="New test running." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

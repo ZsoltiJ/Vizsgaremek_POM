@@ -22,7 +22,7 @@ public class FerrariPageTest extends BaseTest {
         loggedInMainPage.navigateUrl();
         loggedInMainPage.sendSearchWord("Ferrari");
         ferrariPage= new FerrariPage(getDriver());
-        int expected = 551;
+        int expected = 550;
         int actual = ferrariPage.searchCarName("Ferrari");
 
         Assertions.assertEquals(expected, actual);
