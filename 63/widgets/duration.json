@@ -1,0 +1,141 @@
+[ {
+  "uid" : "6bef446b0974106e",
+  "name" : "TC-06, File lementése eltérő tartalom esetén.",
+  "time" : {
+    "start" : 1634815542136,
+    "stop" : 1634815543064,
+    "duration" : 928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad404f88aca4146",
+  "name" : "TC-12, Adat(ok) törlése.",
+  "time" : {
+    "start" : 1634815516256,
+    "stop" : 1634815520280,
+    "duration" : 4024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "767e3c873dc00772",
+  "name" : "TC-03, Sikeres bejelentkezés, helyes adatokkal.",
+  "time" : {
+    "start" : 1634815508088,
+    "stop" : 1634815513820,
+    "duration" : 5732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e792a256965d1071",
+  "name" : "TC-02, A nyelv kiválasztása a honlapon.",
+  "time" : {
+    "start" : 1634815703913,
+    "stop" : 1634815705392,
+    "duration" : 1479
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2429bdb6b051e5e0",
+  "name" : "TC-14, Átnavigálás másik weboldalra.",
+  "time" : {
+    "start" : 1634815523788,
+    "stop" : 1634815525324,
+    "duration" : 1536
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b42f5b4cff1ed07e",
+  "name" : "TC-08, Adadbevitel külső forrásból, folyamatosan.",
+  "time" : {
+    "start" : 1634815532159,
+    "stop" : 1634815542133,
+    "duration" : 9974
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e751960e78151ff",
+  "name" : "TC-11, Többoldalas lista bejárása.",
+  "time" : {
+    "start" : 1634815705396,
+    "stop" : 1634815769228,
+    "duration" : 63832
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d58afb15ad44550",
+  "name" : "TC-13, Adatvédelmi nyilatkozat használata.",
+  "time" : {
+    "start" : 1634815489351,
+    "stop" : 1634815507991,
+    "duration" : 18640
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90ed9251b0b27505",
+  "name" : "TC-10, Új adat küldése.",
+  "time" : {
+    "start" : 1634815520283,
+    "stop" : 1634815523777,
+    "duration" : 3494
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae0758bf87c6b903",
+  "name" : "TC-15, Kijelentkezés a weboldalról, a fiókból.",
+  "time" : {
+    "start" : 1634815769235,
+    "stop" : 1634815776520,
+    "duration" : 7285
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d125d6aaff5321cb",
+  "name" : "TC-05, Bevitt adat módosítása.",
+  "time" : {
+    "start" : 1634815525340,
+    "stop" : 1634815532156,
+    "duration" : 6816
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c773bc53cecfe6e",
+  "name" : "TC-04, Sikertelen bejelentkezés, helytelen jelszóval.",
+  "time" : {
+    "start" : 1634815513824,
+    "stop" : 1634815516249,
+    "duration" : 2425
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f6934783b04eff5",
+  "name" : "TC-07, File nem kerül lementésre, azonos tartalom esetén.",
+  "time" : {
+    "start" : 1634815543066,
+    "stop" : 1634815544473,
+    "duration" : 1407
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a3ccfbbb4aa206a",
+  "name" : "TC-09, Ellenőrizze, hogy a megjelölt, megfelelő adatot találja meg, listaként járja be weboldalt és a találatokat számolja meg.",
+  "time" : {
+    "start" : 1634815544483,
+    "stop" : 1634815703900,
+    "duration" : 159417
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]
