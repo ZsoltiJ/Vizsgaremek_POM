@@ -62,7 +62,6 @@ public class LoggedInMainPage {
 
         String[] array = {"Ferrari", "Mercedes", "BMW", "Audi", "Renault"};
 
-
         for (int i = 0; i < 5; i++) {
 
             webdriver.findElement(SEARCHFIELD).click();
@@ -72,10 +71,6 @@ public class LoggedInMainPage {
         }
     }
 
-    public LogOutPage logOut() {
-        webdriver.findElement(LOGOUTBUTTON).click();
-        return new LogOutPage(webdriver);
-    }
 
 
  /*   public void searchAndSaveToFile() {
@@ -105,6 +100,11 @@ public class LoggedInMainPage {
         webdriver.findElement(SEARCHBUTTON).click();
     }
 
+    public LogOutPage logOut() {
+        webdriver.findElement(LOGOUTBUTTON).click();
+        return new LogOutPage(webdriver);
+
+    }
     public void clickInnerSearchField() {
         webdriver.findElement(INNERSEARCHFIELD).click();
 
@@ -129,7 +129,7 @@ public class LoggedInMainPage {
         WebElement button = webdriver.findElement(BUTTON100);
         actions.moveToElement(button);
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

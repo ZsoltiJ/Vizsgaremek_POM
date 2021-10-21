@@ -36,8 +36,8 @@ public class BaseTest {
         @AfterEach
         public void tearDown() {
 
+
             webdriver.quit();
         }
 
 }
-

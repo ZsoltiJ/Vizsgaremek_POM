@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="Manual testcases has modified.">
+    <list default="true" id="ca7b7df9-aea3-4091-af48-3c973ad080ff" name="Default Changelist" comment="Typo fixed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vizsgareme_POM_manuális_teszesetek.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Vizsgareme_POM_manuális_teszesetek.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainPageSavedText.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainPageSavedText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoggedInMainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SpecialPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/SpecialPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/base/BaseTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.10775864" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -62,7 +66,7 @@
       <recent name="D:\Automation_Tester\Vizsgaremek_POM\src\test\java\sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrivacyAndPolicyPageTest.privacyPolicyTest">
+  <component name="RunManager" selected="JUnit.LoggedInMainPageTest.dataModifingTest">
     <configuration name="FerrariPageTest.dataListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
@@ -79,6 +83,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoggedInMainPageTest.dataModifingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vizsgaremek_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loggedinmainpage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="loggedinmainpage" />
+      <option name="MAIN_CLASS_NAME" value="loggedinmainpage.LoggedInMainPageTest" />
+      <option name="METHOD_NAME" value="dataModifingTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoggedInMainPageTest.searchAndSaveToFileTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vizsgaremek_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loggedinmainpage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="loggedinmainpage" />
+      <option name="MAIN_CLASS_NAME" value="loggedinmainpage.LoggedInMainPageTest" />
+      <option name="METHOD_NAME" value="searchAndSaveToFileTest2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoggedInMainPageTest.sendFileFromOuterSourceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vizsgaremek_POM" />
       <extension name="coverage">
@@ -90,38 +126,6 @@
       <option name="PACKAGE_NAME" value="loggedinmainpage" />
       <option name="MAIN_CLASS_NAME" value="loggedinmainpage.LoggedInMainPageTest" />
       <option name="METHOD_NAME" value="sendFileFromOuterSourceTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPageTest.invalidLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vizsgaremek_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main" />
-      <option name="MAIN_CLASS_NAME" value="main.MainPageTest" />
-      <option name="METHOD_NAME" value="invalidLoginTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainPageTest.validLoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Vizsgaremek_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main" />
-      <option name="MAIN_CLASS_NAME" value="main.MainPageTest" />
-      <option name="METHOD_NAME" value="validLoginTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoggedInMainPageTest.dataModifingTest" />
         <item itemvalue="JUnit.PrivacyAndPolicyPageTest.privacyPolicyTest" />
+        <item itemvalue="JUnit.LoggedInMainPageTest.searchAndSaveToFileTest2" />
         <item itemvalue="JUnit.LoggedInMainPageTest.sendFileFromOuterSourceTest" />
         <item itemvalue="JUnit.FerrariPageTest.dataListTest" />
-        <item itemvalue="JUnit.MainPageTest.validLoginTest" />
-        <item itemvalue="JUnit.MainPageTest.invalidLoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +474,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629120714435</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Typo fixed.">
+      <created>1629184907624</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1629184907624</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Typo fixed.">
+      <created>1629185131841</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1629185131841</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -486,7 +504,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sandbox page test - textarea" />
     <MESSAGE value="sandbox page test - textarea + wait(5000)" />
     <MESSAGE value="sandbox page test - textarea + wait(5000) + 1" />
     <MESSAGE value="forgotten headless" />
@@ -511,7 +528,8 @@
     <MESSAGE value="README has modified." />
     <MESSAGE value="README has modified-2." />
     <MESSAGE value="Manual testcases has modified." />
-    <option name="LAST_COMMIT_MESSAGE" value="Manual testcases has modified." />
+    <MESSAGE value="Typo fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Typo fixed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

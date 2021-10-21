@@ -16,10 +16,6 @@ public class SpecialPages {
         this.webDriver = webDriver;
     }
 
-    public ExternalLinkPage clickOnExternalLink(){
-        webDriver.findElement(EXTERNALBUTTON).click();
-        return new ExternalLinkPage(webDriver);
-    }
     public void navigateToURL(){
 
         webDriver.get(URL);
@@ -27,6 +23,10 @@ public class SpecialPages {
     public String checkUrl(){
         String actual = webDriver.getCurrentUrl();
         return actual;
+    }
+    public ExternalLinkPage clickOnExternalLink(){
+        webDriver.findElement(EXTERNALBUTTON).click();
+        return new ExternalLinkPage(webDriver);
     }
 }
 
