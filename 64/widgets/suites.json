@@ -1,6 +1,17 @@
 {
   "total" : 9,
   "items" : [ {
+    "uid" : "cbe0855e65fabf0510c61f27f12c012a",
+    "name" : "ferrari.FerrariPageTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "68ca4ce317ea7053568690690a38b181",
     "name" : "loggedinmainpage.LoggedInMainPageTest",
     "statistic" : {
@@ -10,17 +21,6 @@
       "passed" : 3,
       "unknown" : 0,
       "total" : 4
-    }
-  }, {
-    "uid" : "f2791cf9f6f8a0e1b0356b7740462ce6",
-    "name" : "main.MainPageTest",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
     }
   }, {
     "uid" : "e53cb0b406c75ec7ec386a9a7b5d31e8",
@@ -34,30 +34,19 @@
       "total" : 2
     }
   }, {
-    "uid" : "b08884fe9c64b197e013191219b2dff5",
-    "name" : "privacy_policy.PrivacyAndPolicyPageTest",
+    "uid" : "f2791cf9f6f8a0e1b0356b7740462ce6",
+    "name" : "main.MainPageTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   }, {
-    "uid" : "f65a2e439982d002229773beaf6bd28d",
-    "name" : "special.SpecialPagesTest",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "cbe0855e65fabf0510c61f27f12c012a",
-    "name" : "ferrari.FerrariPageTest",
+    "uid" : "e87f7f15bb0f0523dbb71b713fdd6a96",
+    "name" : "logout.LogOutPageTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -78,6 +67,17 @@
       "total" : 1
     }
   }, {
+    "uid" : "f65a2e439982d002229773beaf6bd28d",
+    "name" : "special.SpecialPagesTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "3afce7e77c644cfd78b0a81ea125b0a8",
     "name" : "searchresult.SearchResultPageTest",
     "statistic" : {
@@ -89,8 +89,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "e87f7f15bb0f0523dbb71b713fdd6a96",
-    "name" : "logout.LogOutPageTest",
+    "uid" : "b08884fe9c64b197e013191219b2dff5",
+    "name" : "privacy_policy.PrivacyAndPolicyPageTest",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

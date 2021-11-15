@@ -3,6 +3,18 @@
   "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "failed" : 1,
+    "broken" : 0,
+    "skipped" : 1,
+    "passed" : 12,
+    "unknown" : 0,
+    "total" : 14
+  }
+}, {
+  "buildOrder" : 64,
+  "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "failed" : 0,
     "broken" : 0,
     "skipped" : 1,
@@ -223,18 +235,6 @@
     "broken" : 0,
     "skipped" : 0,
     "passed" : 12,
-    "unknown" : 0,
-    "total" : 13
-  }
-}, {
-  "buildOrder" : 45,
-  "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "failed" : 0,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 13,
     "unknown" : 0,
     "total" : 13
   }

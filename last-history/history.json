@@ -175,11 +175,20 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 3,
-      "passed" : 28,
+      "passed" : 29,
       "unknown" : 0,
-      "total" : 36
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "502ab3333f3494a3",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/502ab3333f3494a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999449125,
+        "stop" : 1636999455299,
+        "duration" : 6174
+      }
+    }, {
       "uid" : "3c801d6210ca1b15",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/3c801d6210ca1b15",
       "status" : "passed",
@@ -350,15 +359,6 @@
         "start" : 1628244008152,
         "stop" : 1628244021378,
         "duration" : 13226
-      }
-    }, {
-      "uid" : "a1f1049cc94fa0e",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/a1f1049cc94fa0e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243754249,
-        "stop" : 1628243767336,
-        "duration" : 13087
       }
     } ]
   },
@@ -538,11 +538,20 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 3,
-      "passed" : 28,
+      "passed" : 29,
       "unknown" : 0,
-      "total" : 36
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "b1c5d70d9265e0cf",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/b1c5d70d9265e0cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999438877,
+        "stop" : 1636999447807,
+        "duration" : 8930
+      }
+    }, {
       "uid" : "1663818b66677872",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/1663818b66677872",
       "status" : "passed",
@@ -714,27 +723,28 @@
         "stop" : 1628244087344,
         "duration" : 4281
       }
-    }, {
-      "uid" : "5f82c93a489ca6b0",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/5f82c93a489ca6b0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243835511,
-        "stop" : 1628243841941,
-        "duration" : 6430
-      }
     } ]
   },
   "753d32498508134e523dcf68038a9aa" : {
     "statistic" : {
       "failed" : 3,
       "broken" : 1,
-      "skipped" : 1,
+      "skipped" : 2,
       "passed" : 12,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "599fc9be6d467156",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/599fc9be6d467156",
+      "status" : "skipped",
+      "statusDetails" : "public void loggedinmainpage.LoggedInMainPageTest.searchAndSaveToFileTest2() throws java.io.IOException is @Disabled",
+      "time" : {
+        "start" : 1636999465757,
+        "stop" : 1636999465757,
+        "duration" : 0
+      }
+    }, {
       "uid" : "6589b82adff12da8",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/6589b82adff12da8",
       "status" : "skipped",
@@ -899,11 +909,20 @@
       "failed" : 3,
       "broken" : 5,
       "skipped" : 3,
-      "passed" : 25,
+      "passed" : 26,
       "unknown" : 0,
-      "total" : 36
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "69cd30ae193c9bb7",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/69cd30ae193c9bb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999473693,
+        "stop" : 1636999537013,
+        "duration" : 63320
+      }
+    }, {
       "uid" : "40d4d8be9ccfacaf",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/40d4d8be9ccfacaf",
       "status" : "passed",
@@ -1078,15 +1097,6 @@
         "stop" : 1628244083046,
         "duration" : 55771
       }
-    }, {
-      "uid" : "a9f81b69d6f642cb",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/a9f81b69d6f642cb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243773230,
-        "stop" : 1628243835501,
-        "duration" : 62271
-      }
     } ]
   },
   "883bddce8aad412e2b0fa4c072ffc949" : {
@@ -1094,11 +1104,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 21,
       "unknown" : 0,
-      "total" : 22
+      "total" : 23
     },
     "items" : [ {
+      "uid" : "cf3feaf27cca68aa",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/cf3feaf27cca68aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999455302,
+        "stop" : 1636999464961,
+        "duration" : 9659
+      }
+    }, {
       "uid" : "78738b23cbd8442e",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/78738b23cbd8442e",
       "status" : "passed",
@@ -1270,15 +1289,6 @@
         "stop" : 1628244026397,
         "duration" : 4953
       }
-    }, {
-      "uid" : "9a15d49c7e2d58b1",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/9a15d49c7e2d58b1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243767415,
-        "stop" : 1628243772370,
-        "duration" : 4955
-      }
     } ]
   },
   "54225057ef9508619b007e1741c182b5" : {
@@ -1286,11 +1296,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 21,
       "unknown" : 0,
-      "total" : 22
+      "total" : 23
     },
     "items" : [ {
+      "uid" : "c54a8e19ae44aa15",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/c54a8e19ae44aa15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999472228,
+        "stop" : 1636999473686,
+        "duration" : 1458
+      }
+    }, {
       "uid" : "bdf74f769d8a56b3",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/bdf74f769d8a56b3",
       "status" : "passed",
@@ -1462,15 +1481,6 @@
         "stop" : 1628244088731,
         "duration" : 1378
       }
-    }, {
-      "uid" : "7435d684042e994",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/7435d684042e994",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243841948,
-        "stop" : 1628243843101,
-        "duration" : 1153
-      }
     } ]
   },
   "5d0d1cb41f9e9d09f4a5fe5deb9743b1" : {
@@ -1478,11 +1488,20 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 3,
-      "passed" : 28,
+      "passed" : 29,
       "unknown" : 0,
-      "total" : 36
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "6fbeb5c6bdd696a3",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/6fbeb5c6bdd696a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999546991,
+        "stop" : 1636999549091,
+        "duration" : 2100
+      }
+    }, {
       "uid" : "788566d8cd66b46a",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/788566d8cd66b46a",
       "status" : "passed",
@@ -1653,15 +1672,6 @@
         "start" : 1628244106621,
         "stop" : 1628244108752,
         "duration" : 2131
-      }
-    }, {
-      "uid" : "7f4fc93b08acb236",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/7f4fc93b08acb236",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243859360,
-        "stop" : 1628243861353,
-        "duration" : 1993
       }
     } ]
   },
@@ -1841,11 +1851,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 21,
       "unknown" : 0,
-      "total" : 22
+      "total" : 23
     },
     "items" : [ {
+      "uid" : "be4aa7ab2a10c064",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/be4aa7ab2a10c064",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999465766,
+        "stop" : 1636999469176,
+        "duration" : 3410
+      }
+    }, {
       "uid" : "c2bb4b8a7e7ab05d",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/c2bb4b8a7e7ab05d",
       "status" : "passed",
@@ -2017,15 +2036,6 @@
         "stop" : 1628244097137,
         "duration" : 7138
       }
-    }, {
-      "uid" : "79bd2c7dd112c48f",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/79bd2c7dd112c48f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243844291,
-        "stop" : 1628243850249,
-        "duration" : 5958
-      }
     } ]
   },
   "982231bba9befe647a7eea920c9681df" : {
@@ -2033,11 +2043,20 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 3,
-      "passed" : 28,
+      "passed" : 29,
       "unknown" : 0,
-      "total" : 36
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "2c9e5040b78a0f10",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/2c9e5040b78a0f10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999537021,
+        "stop" : 1636999542196,
+        "duration" : 5175
+      }
+    }, {
       "uid" : "962df3e2ef78d2e5",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/962df3e2ef78d2e5",
       "status" : "passed",
@@ -2209,27 +2228,28 @@
         "stop" : 1628244225622,
         "duration" : 1196
       }
-    }, {
-      "uid" : "54f4ee458d392951",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/54f4ee458d392951",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243990361,
-        "stop" : 1628243991361,
-        "duration" : 1000
-      }
     } ]
   },
   "2e07d7759bb4ea6887acb97cc3399441" : {
     "statistic" : {
-      "failed" : 3,
+      "failed" : 4,
       "broken" : 5,
       "skipped" : 3,
       "passed" : 25,
       "unknown" : 0,
-      "total" : 36
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "579c402cc4cb6eef",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/579c402cc4cb6eef",
+      "status" : "failed",
+      "statusDetails" : "expected: <550> but was: <559>",
+      "time" : {
+        "start" : 1636999549095,
+        "stop" : 1636999705242,
+        "duration" : 156147
+      }
+    }, {
       "uid" : "4df6977a81d3c7e4",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/4df6977a81d3c7e4",
       "status" : "passed",
@@ -2404,15 +2424,6 @@
         "stop" : 1628244224422,
         "duration" : 115667
       }
-    }, {
-      "uid" : "b9408bdddce8d7b0",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/b9408bdddce8d7b0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243861357,
-        "stop" : 1628243990356,
-        "duration" : 128999
-      }
     } ]
   },
   "e3b318b3787dec6fb5ea333c21ea3dfb" : {
@@ -2420,11 +2431,20 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 21,
       "unknown" : 0,
-      "total" : 22
+      "total" : 23
     },
     "items" : [ {
+      "uid" : "d1893a6c14793c39",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/d1893a6c14793c39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999469178,
+        "stop" : 1636999472218,
+        "duration" : 3040
+      }
+    }, {
       "uid" : "a6ef446cd692fce9",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/a6ef446cd692fce9",
       "status" : "passed",
@@ -2596,15 +2616,6 @@
         "stop" : 1628244102891,
         "duration" : 5751
       }
-    }, {
-      "uid" : "232a303fa5179f38",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/232a303fa5179f38",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243850252,
-        "stop" : 1628243855990,
-        "duration" : 5738
-      }
     } ]
   },
   "8b7ce5fcc471aac8210fc70d7bd469c9" : {
@@ -2612,11 +2623,20 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 3,
-      "passed" : 28,
+      "passed" : 29,
       "unknown" : 0,
-      "total" : 36
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "9e9f4124b54e9d31",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/9e9f4124b54e9d31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999542203,
+        "stop" : 1636999546988,
+        "duration" : 4785
+      }
+    }, {
       "uid" : "2200a74d32059c57",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/2200a74d32059c57",
       "status" : "passed",
@@ -2788,15 +2808,6 @@
         "stop" : 1628244106617,
         "duration" : 3723
       }
-    }, {
-      "uid" : "f800af0dc1b6251",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/f800af0dc1b6251",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243855996,
-        "stop" : 1628243859354,
-        "duration" : 3358
-      }
     } ]
   },
   "8acf5495b375ef9f4ad0c28aa251f474" : {
@@ -2804,11 +2815,20 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 3,
-      "passed" : 28,
+      "passed" : 29,
       "unknown" : 0,
-      "total" : 36
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "f4e9d2fd51d3c0e5",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/f4e9d2fd51d3c0e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999447892,
+        "stop" : 1636999449111,
+        "duration" : 1219
+      }
+    }, {
       "uid" : "c256275476a62cad",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/c256275476a62cad",
       "status" : "passed",
@@ -2980,15 +3000,6 @@
         "stop" : 1628244089995,
         "duration" : 1251
       }
-    }, {
-      "uid" : "de4b099b3ef05dad",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/de4b099b3ef05dad",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243843109,
-        "stop" : 1628243844284,
-        "duration" : 1175
-      }
     } ]
   },
   "8f4c3ab28b4c9e881135d6412f94aee" : {
@@ -2996,11 +3007,20 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 3,
-      "passed" : 28,
+      "passed" : 29,
       "unknown" : 0,
-      "total" : 36
+      "total" : 37
     },
     "items" : [ {
+      "uid" : "6de440ae766e5874",
+      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/6de440ae766e5874",
+      "status" : "passed",
+      "time" : {
+        "start" : 1636999464967,
+        "stop" : 1636999465753,
+        "duration" : 786
+      }
+    }, {
       "uid" : "cf177ec1dc29f408",
       "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/64//#testresult/cf177ec1dc29f408",
       "status" : "passed",
@@ -3171,15 +3191,6 @@
         "start" : 1628244026400,
         "stop" : 1628244027257,
         "duration" : 857
-      }
-    }, {
-      "uid" : "bd013fd65da377a0",
-      "reportUrl" : "https://ZsoltiJ.github.io/Vizsgaremek_POM/45//#testresult/bd013fd65da377a0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1628243772374,
-        "stop" : 1628243773207,
-        "duration" : 833
       }
     } ]
   }

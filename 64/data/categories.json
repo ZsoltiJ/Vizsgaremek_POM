@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <550> but was: <559>",
+      "children" : [ {
+        "name" : "TC-09, Ellenőrizze, hogy a megjelölt, megfelelő adatot találja meg, listaként járja be weboldalt és a találatokat számolja meg.",
+        "uid" : "579c402cc4cb6eef",
+        "parentUid" : "c083c8253deee629d673d1fc76b24e04",
+        "status" : "failed",
+        "time" : {
+          "start" : 1636999549095,
+          "stop" : 1636999705242,
+          "duration" : 156147
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c083c8253deee629d673d1fc76b24e04"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }
